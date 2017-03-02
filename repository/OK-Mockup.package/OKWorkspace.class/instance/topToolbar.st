@@ -1,0 +1,3 @@
+accessing
+topToolbar
+	^ self shouldNotImplement

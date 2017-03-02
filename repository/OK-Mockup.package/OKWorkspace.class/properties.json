@@ -1,0 +1,18 @@
+{
+	"category" : "OK-Mockup-Spec",
+	"classinstvars" : [
+		"left",
+		"right" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"modelspaces",
+		"tabManager",
+		"pluginRegistry",
+		"tool" ],
+	"name" : "OKWorkspace",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"type" : "normal" }

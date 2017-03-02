@@ -1,0 +1,14 @@
+{
+	"category" : "OK-Mockup-Spec",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OKMenuToolbar",
+	"pools" : [
+		 ],
+	"super" : "OPWorkbenchToolbar",
+	"type" : "normal" }

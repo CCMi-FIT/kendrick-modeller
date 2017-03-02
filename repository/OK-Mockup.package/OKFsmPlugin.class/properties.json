@@ -1,0 +1,14 @@
+{
+	"category" : "OK-Mockup-FSM",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OKFsmPlugin",
+	"pools" : [
+		 ],
+	"super" : "OPFsmPlugin",
+	"type" : "normal" }

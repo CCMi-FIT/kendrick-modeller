@@ -1,0 +1,15 @@
+{
+	"category" : "OK-Mockup-Spec",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"modelspace",
+		"editor" ],
+	"name" : "OKModellingEditor",
+	"pools" : [
+		 ],
+	"super" : "OPWorkbench",
+	"type" : "normal" }

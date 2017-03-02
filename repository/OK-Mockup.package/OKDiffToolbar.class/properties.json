@@ -1,0 +1,19 @@
+{
+	"category" : "OK-Mockup-Spec",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"noRadio",
+		"lastRadio",
+		"allRadio",
+		"resetButton",
+		"radios",
+		"container" ],
+	"name" : "OKDiffToolbar",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"type" : "normal" }

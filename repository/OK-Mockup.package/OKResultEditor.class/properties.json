@@ -1,0 +1,14 @@
+{
+	"category" : "OK-Mockup-Spec",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OKResultEditor",
+	"pools" : [
+		 ],
+	"super" : "OKModellingEditor",
+	"type" : "normal" }

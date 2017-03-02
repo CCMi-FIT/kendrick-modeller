@@ -1,0 +1,15 @@
+{
+	"category" : "OK-Mockup-FSM",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"dashes",
+		"capStyle" ],
+	"name" : "OKTRStyledArcShape",
+	"pools" : [
+		 ],
+	"super" : "OPTRArcShape",
+	"type" : "normal" }

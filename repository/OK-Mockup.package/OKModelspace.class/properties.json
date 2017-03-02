@@ -1,0 +1,18 @@
+{
+	"category" : "OK-Mockup-Spec",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"modellingEditor",
+		"programmingEditor",
+		"resultEditor",
+		"tabManager",
+		"workspace" ],
+	"name" : "OKModelspace",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"type" : "normal" }

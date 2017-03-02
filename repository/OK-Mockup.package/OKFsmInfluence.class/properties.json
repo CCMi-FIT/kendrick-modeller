@@ -1,0 +1,14 @@
+{
+	"category" : "OK-Mockup-FSM",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OKFsmInfluence",
+	"pools" : [
+		 ],
+	"super" : "OPFsmTransition",
+	"type" : "normal" }
