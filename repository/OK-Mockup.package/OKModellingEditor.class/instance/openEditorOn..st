@@ -1,7 +1,7 @@
 as yet unclassified
 openEditorOn: aModel
 	| tab plugin widget |
-	(editor := OPEditor new) workbench: self.
+	(editor := self class editorClass new) workbench: self.
 	plugin := pluginRegistry pluginFor: aModel.
 	editor plugin: plugin.
 	tab := self newTab.

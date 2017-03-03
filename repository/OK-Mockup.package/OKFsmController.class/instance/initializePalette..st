@@ -5,7 +5,9 @@ initializePalette: aPalette
 			factory: [ OPFsmInitialStateController new ]
 			icon: OPIcons current dcFsmInitialStateIcon;
 		newSeparator;
-		newCreationTool: 'State' factory: [ OPFsmStateController new ] icon: OPIcons current dcFsmRegularStateIcon;
+		newCreationTool: 'State'
+			factory: [ OPFsmStateController new ]
+			icon: OPIcons current dcFsmRegularStateIcon;
 		newCreationTool: 'Final state'
 			factory: [ OPFsmFinalStateController new ]
 			icon: OPIcons current dcFsmFinalStateIcon;

@@ -7,6 +7,6 @@ createTab: anEditor for: aModel
 	widget := anEditor buildWithSpec asWidget.
 	anEditor owner: tab.
 	tab retrievingBlock: [ widget ].
-	tab label: anEditor class asString.
+	tab label: anEditor class label.
 	tabManager addTab: tab.
 	^ tab
