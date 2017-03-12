@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfOpenPonkModularity",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfOpenPonkModularity",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "OpenPonk-Kendrick-modularity-FSM",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"dashes",
+		"capStyle" ],
+	"name" : "OKTRStyledArcShape",
+	"pools" : [
+		 ],
+	"super" : "OPTRArcShape",
+	"type" : "normal" }
