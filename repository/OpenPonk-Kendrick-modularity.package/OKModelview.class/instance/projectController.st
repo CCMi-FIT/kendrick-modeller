@@ -1,3 +1,3 @@
 accessing
 projectController
-	^ self tool projectController
+	^ self workbench projectController

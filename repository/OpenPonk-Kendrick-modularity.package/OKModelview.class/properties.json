@@ -7,9 +7,10 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"modelspace",
-		"editor" ],
+		"editor",
+		"tabManager" ],
 	"name" : "OKModelview",
 	"pools" : [
 		 ],
-	"super" : "OPWorkbench",
+	"super" : "ComposableModel",
 	"type" : "normal" }

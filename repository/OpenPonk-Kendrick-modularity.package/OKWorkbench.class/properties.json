@@ -11,7 +11,8 @@
 		"rightWorkspace",
 		"project",
 		"projectController",
-		"diffToolbar" ],
+		"diffToolbar",
+		"pluginRegistry" ],
 	"name" : "OKWorkbench",
 	"pools" : [
 		 ],

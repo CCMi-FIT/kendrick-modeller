@@ -1,3 +1,3 @@
 testing
 isLeft
-	^ self tool leftWorkspace == self
+	^ self workbench leftWorkspace == self

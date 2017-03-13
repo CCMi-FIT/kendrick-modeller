@@ -9,8 +9,7 @@
 	"instvars" : [
 		"modelspaces",
 		"tabManager",
-		"pluginRegistry",
-		"tool" ],
+		"workbench" ],
 	"name" : "OKWorkspace",
 	"pools" : [
 		 ],

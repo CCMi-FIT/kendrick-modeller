@@ -1,3 +1,3 @@
 accessing
 workspace
-	^ self modelspace workspace
+	^ modelspace workspace

@@ -3,7 +3,7 @@ openEditorOn: aModel
 	| tab plugin widget modelspace |
 	modelspace := OKModelspace new.
 	modelspace workspace: self.
-	plugin := pluginRegistry pluginFor: aModel.
+	plugin := self pluginRegistry pluginFor: aModel.
 	tab := self newTab.
 	modelspaces at: aModel put: (Array with: modelspace with: tab).
 	modelspace owner: tab.
@@ -16,7 +16,5 @@ openEditorOn: aModel
 		retrievingBlock: [ widget ];
 		whenBuiltDo: [ :w | 
 			w widget when: #tabDeleted send: #tabDeleted to: modelspace.
-			w widget
-				when: #tabDeleted
-				evaluate: [ :t | modelspaces removeKey: aModel ] ].
+			w widget when: #tabDeleted evaluate: [ :t | modelspaces removeKey: aModel ] ].
 	tabManager addTab: tab

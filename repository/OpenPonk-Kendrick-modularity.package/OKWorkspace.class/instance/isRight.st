@@ -1,3 +1,3 @@
 testing
 isRight
-	^ self tool rightWorkspace == self
+	^ self workbench rightWorkspace == self

@@ -1,8 +1,8 @@
 project handling
 openEditorOn: aModel
-	modellingEditor := OKModelviewEdit new.
-	programmingEditor := OKModelviewCode new.
-	resultEditor := OKModelviewResult new.
-	self createTab: modellingEditor for: aModel.
-	self createTab: programmingEditor for: aModel.
-	self createTab: resultEditor for: aModel
+	modelviewEdit := OKModelviewEdit new.
+	modelviewCode := OKModelviewCode new.
+	modelviewResult := OKModelviewResult new.
+	self createTab: modelviewEdit for: aModel.
+	self createTab: modelviewCode for: aModel.
+	self createTab: modelviewResult for: aModel

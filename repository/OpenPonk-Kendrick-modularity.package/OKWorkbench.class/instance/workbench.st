@@ -1,3 +1,3 @@
 accessing
-tool
+workbench
 	^ self

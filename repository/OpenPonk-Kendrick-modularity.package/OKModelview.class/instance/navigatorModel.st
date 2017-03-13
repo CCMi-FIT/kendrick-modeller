@@ -1,3 +1,0 @@
-accessing
-navigatorModel
-	^ self shouldNotImplement

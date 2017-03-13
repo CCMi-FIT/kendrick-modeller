@@ -1,4 +1,4 @@
 opening
 closeEditorOf: aModel
-	self modelspace closeEditorOf: aModel.
+	self workspace closeEditorOf: aModel.
 	editor := nil

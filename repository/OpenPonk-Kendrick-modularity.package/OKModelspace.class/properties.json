@@ -6,11 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"modellingEditor",
-		"programmingEditor",
-		"resultEditor",
 		"tabManager",
-		"workspace" ],
+		"workspace",
+		"modelviewEdit",
+		"modelviewCode",
+		"modelviewResult" ],
 	"name" : "OKModelspace",
 	"pools" : [
 		 ],
