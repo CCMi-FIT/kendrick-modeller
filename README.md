@@ -1,55 +1,54 @@
-# openponk-modularity
+# OpenPonk-Kendrick modularity
 
 ## Installation
-Installation process depends on whether you do have and want to use existing Pharo image and whether you have OpenPonk and/or Kendrick in it
+Installation process depends on your preferences and experience with Pharo. All options will require following code:
 
-### To use new Pharo image, existing image without OpenPonk or Kendrick or if you don't even know what it is
-* If you do not have Pharo image already, download Pharo for your platform (Mac/Windows/Linux) from: http://pharo.org/web/download
-* Open Pharo (exact steps depend on platform - for Windows it means to extract the archive and run Pharo.exe)
-* In the image, run following code
-  * Click on background in the Pharo image
-  * select Playground
-  * copy there code below
-  * select the code
-  * right click on selected code
-  * select Do it
 ```smalltalk
 Metacello new
   baseline: 'OpenPonkModularity';
   repository: 'github://bliznjan/openponk-modularity/repository';
   load.
 ```
-### To use existing image without Kendrick, but with OpenPonk with FSM and Class editor
-* In the image, run following code
-  * Click on background in the Pharo image
-  * select Playground
-  * copy there code below
-  * select the code
-  * right click on selected code
-  * select Do it
-```smalltalk
-Metacello new
-  baseline: 'OpenPonkModularity';
-  repository: 'github://bliznjan/openponk-modularity/repository';
-  load: #kendrick.
-```
-### To use existing image with Kendrick, but without OpenPonk
-* In the image, run following code
-  * Click on background in the Pharo image
-  * Click on background
-  * select Playground
-  * copy there code below
-  * select the code
-  * right click on selected code
-  * select Do it
-```smalltalk
-Metacello new
-  baseline: 'OpenPonkModularity';
-  repository: 'github://bliznjan/openponk-modularity/repository';
-  load: #openponk.
-```
 
-## Running it
+### Easy but slow option
+Use this if you are not experienced with Pharo. Loading of code can take many minutes this way.
+
+* Download OpenPonk (alpha stable) for your platform from https://openponk.github.io/#download
+* Extract zip archive
+* Open Pharo using openponk.sh (Linux/Mac) or OpenPonk.exe (Windows)
+* In the image, run the code above this way:
+  * Click on background in the Pharo image
+  * select Playground
+  * copy there code below
+  * select the code
+  * right click on selected code
+  * select Do it
+* If there is a Warning window, click Proceed
+
+### Fast option
+Use this if you already have a Pharo virtual machine and you don't mind using new Pharo image.
+
+* Download Kendrick beta image from https://ummisco.github.io/kendrick/#install
+* Open the image
+* In the image, run the code above
+* If there is a Warning window, click Proceed
+
+### Custom image option
+To load everything needed into any existing or new image, just run the code above.
+
+* In the image, run fthe code above
+* If there is a Warning window, click Proceed
+
+### Other options
+If you already have a Kendrick or OpenPonk in your image and do not want to replace it by version loaded by code above, you can load just part of required packages be replacing last line ("load.") by...
+* If you have Kendrick, but do NOT have OpenPonk
+  * replace "load." by "load: #openponk.".
+* If you do NOT have Kendrick, but do have OpenPonk
+  * replace "load." by "load: #kendrick".
+* If you have both Kendrick and OpenPonk
+  * replace "load." by "load: #package".
+
+## Opening the application (OpenPonk-Kendrick modularity workbench)
 Either
 * right click on background
 * select OpenPonk-Kendrick modularity
