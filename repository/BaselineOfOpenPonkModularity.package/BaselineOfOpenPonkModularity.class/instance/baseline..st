@@ -1,7 +1,6 @@
 baselines
 baseline: spec
 	<baseline>
-	
 	spec
 		for: #common
 		do: [ spec
@@ -9,10 +8,12 @@ baseline: spec
 					with: [ spec
 						loads: #complete;
 						repository: 'github://openponk/openponk/repository' ];
-				project: 'Kendrick'
+				configuration: #Kendrick
 					with: [ spec
-						className: #ConfigurationOfKendrick;
 						versionString: #development;
 						repository: 'http://smalltalkhub.com/mc/UMMISCO/Kendrick/main' ];
-				package: 'OpenPonk-Kendrick-modularity'
-					with: [ spec requires: #('Kendrick' 'OpenPonk') ] ]
+				package: 'OpenPonk-Kendrick-modularity'.
+			spec group: 'default' with: #('OpenPonk' 'Kendrick' 'OpenPonk-Kendrick-modularity').
+			spec group: 'kendrick' with: #('Kendrick' 'OpenPonk-Kendrick-modularity').
+			spec group: 'openponk' with: #('OpenPonk' 'OpenPonk-Kendrick-modularity').
+			spec group: 'package' with: #('OpenPonk-Kendrick-modularity') ]
