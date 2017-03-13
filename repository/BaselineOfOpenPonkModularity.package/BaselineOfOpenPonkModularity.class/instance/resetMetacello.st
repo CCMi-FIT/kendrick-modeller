@@ -1,0 +1,3 @@
+baselines
+resetMetacello
+	MetacelloProjectRegistration resetRegistry

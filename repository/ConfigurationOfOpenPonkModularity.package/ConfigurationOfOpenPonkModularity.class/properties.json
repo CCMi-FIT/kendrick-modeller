@@ -1,0 +1,14 @@
+{
+	"category" : "ConfigurationOfOpenPonkModularity",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ConfigurationOfOpenPonkModularity",
+	"pools" : [
+		 ],
+	"super" : "ConfigurationOf",
+	"type" : "normal" }
