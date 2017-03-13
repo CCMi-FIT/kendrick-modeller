@@ -19,5 +19,4 @@ openEditorOn: aModel
 			w widget
 				when: #tabDeleted
 				evaluate: [ :t | modelspaces removeKey: aModel ] ].
-	tabManager addTab: tab.
-	self focusEditorOf: aModel
+	tabManager addTab: tab

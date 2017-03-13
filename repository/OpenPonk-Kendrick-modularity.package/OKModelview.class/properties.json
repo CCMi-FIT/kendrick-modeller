@@ -1,0 +1,15 @@
+{
+	"category" : "OpenPonk-Kendrick-modularity-Spec",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"modelspace",
+		"editor" ],
+	"name" : "OKModelview",
+	"pools" : [
+		 ],
+	"super" : "OPWorkbench",
+	"type" : "normal" }

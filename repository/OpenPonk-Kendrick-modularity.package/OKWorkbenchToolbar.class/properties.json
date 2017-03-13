@@ -1,0 +1,14 @@
+{
+	"category" : "OpenPonk-Kendrick-modularity-Spec",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OKWorkbenchToolbar",
+	"pools" : [
+		 ],
+	"super" : "OPWorkbenchToolbar",
+	"type" : "normal" }
