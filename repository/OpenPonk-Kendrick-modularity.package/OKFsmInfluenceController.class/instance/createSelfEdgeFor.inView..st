@@ -1,4 +1,4 @@
-as yet unclassified
+figures
 createSelfEdgeFor: anElement inView: view
 	| aLabel aFigure |
 	aFigure := OKRTStyledArcLine new

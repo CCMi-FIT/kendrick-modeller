@@ -1,3 +1,3 @@
 private
 editorClass
-	^ OKEditor
+	^ OKEditorResult

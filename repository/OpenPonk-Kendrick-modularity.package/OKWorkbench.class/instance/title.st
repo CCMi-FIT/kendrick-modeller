@@ -1,3 +1,3 @@
 api
 title
-	^ 'OpenPonk'
+	^ 'OpenPonk-Kendrick modularity'

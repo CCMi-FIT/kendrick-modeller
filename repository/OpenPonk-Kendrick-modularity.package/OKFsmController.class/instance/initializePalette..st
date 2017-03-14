@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initializePalette: aPalette
 	aPalette
 		newCreationTool: 'Initial state'

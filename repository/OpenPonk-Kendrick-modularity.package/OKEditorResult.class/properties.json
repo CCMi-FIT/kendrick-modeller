@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "OKEditor",
+	"name" : "OKEditorResult",
 	"pools" : [
 		 ],
 	"super" : "OPEditor",

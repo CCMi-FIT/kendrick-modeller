@@ -1,12 +1,12 @@
 initialization
-createTab: anEditor for: aModel
+createTab: aModelview for: aModel
 	| tab widget |
-	anEditor modelspace: self.
-	anEditor openEditorOn: aModel.
+	aModelview modelspace: self.
 	tab := self instantiate: TabModel.
-	widget := anEditor buildWithSpec asWidget.
-	anEditor owner: tab.
+	aModelview owner: tab.
+	tab label: aModelview class label.
+	widget := aModelview buildWithSpec asWidget.
 	tab retrievingBlock: [ widget ].
-	tab label: anEditor class label.
 	tabManager addTab: tab.
+	aModelview openEditorOn: aModel.
 	^ tab

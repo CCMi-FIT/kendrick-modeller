@@ -7,10 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"modelspace",
-		"editor",
-		"tabManager" ],
+		"editor" ],
 	"name" : "OKModelview",
 	"pools" : [
 		 ],
-	"super" : "ComposableModel",
+	"super" : "DynamicComposableModel",
 	"type" : "normal" }

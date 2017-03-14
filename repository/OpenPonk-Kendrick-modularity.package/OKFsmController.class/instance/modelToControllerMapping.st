@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 modelToControllerMapping
 	^ super modelToControllerMapping
 		at: OKFsmInfluence put: OKFsmInfluenceController;

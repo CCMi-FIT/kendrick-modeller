@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 drawOn: athensCanvas
 	athensCanvas pathTransform
 		restoreAfter: [ athensCanvas setShape: self path.

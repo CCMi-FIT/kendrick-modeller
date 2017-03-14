@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 dashes: anArrayOfNumeric
 	dashes := anArrayOfNumeric

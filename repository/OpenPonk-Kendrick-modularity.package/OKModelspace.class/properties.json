@@ -10,7 +10,8 @@
 		"workspace",
 		"modelviewEdit",
 		"modelviewCode",
-		"modelviewResult" ],
+		"modelviewResult",
+		"tabs" ],
 	"name" : "OKModelspace",
 	"pools" : [
 		 ],

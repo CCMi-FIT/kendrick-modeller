@@ -4,4 +4,5 @@ menuCommandOn: aBuilder
 	(aBuilder item: #'OpenPonk-Kendrick modularity mockup')
 		icon: OPIcons current dynacaseIcon;
 		parent: #MostUsedTools;
-		action: [ self example ]
+		action: [ self example ];
+		withSeparatorAfter

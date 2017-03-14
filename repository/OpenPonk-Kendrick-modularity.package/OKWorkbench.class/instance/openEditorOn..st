@@ -4,5 +4,4 @@ openEditorOn: aModel
 		ifTrue: [ leftWorkspace focusEditorOf: aModel.
 			^ self ].
 	leftWorkspace openEditorOn: aModel.
-	leftWorkspace focusEditorOf: aModel.
 	rightWorkspace openEditorOn: aModel

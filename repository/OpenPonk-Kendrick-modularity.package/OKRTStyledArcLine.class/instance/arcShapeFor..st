@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 arcShapeFor: anEdge
 	| shape |
 	shape := OPTRArcShape new.

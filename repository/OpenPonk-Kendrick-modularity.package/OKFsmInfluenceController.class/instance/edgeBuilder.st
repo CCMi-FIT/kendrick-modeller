@@ -1,4 +1,4 @@
-as yet unclassified
+figures
 edgeBuilder
 	^ super edgeBuilder
 		dottedLine;

@@ -1,6 +1,5 @@
 opening
 openEditorOn: aModel
-	| tab widget |
 	editor := self newCode.
 	aModel name = 'SIR'
 		ifTrue: [ editor
@@ -29,8 +28,4 @@ openEditorOn: aModel
 	concern: ''Species'';
 	N: #(species);	
 	lambda: #(beta*rho*I sum).' ].
-	tab := self newTab.
-	widget := editor buildWithSpec asWidget.
-	tab retrievingBlock: [ widget ].
-	tabManager addTab: tab.
-	self focusEditorOf: aModel
+	self rebuildWidget

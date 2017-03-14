@@ -1,4 +1,4 @@
-as yet unclassified
+userinterface
 applyDefaultLayout
 	self
 		applyLayout:

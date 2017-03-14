@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 capStyle
 	^ capStyle ifNil: [ #capButt ]
