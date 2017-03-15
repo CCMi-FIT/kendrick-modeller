@@ -11,19 +11,19 @@ Metacello new
 ```
 
 ### Easy but slow option
-Use this if you are not experienced with Pharo. Loading of code can take many minutes this way.
+Use this if you are not experienced with Pharo. Loading of code may take many minutes this way.
 
 * Download OpenPonk (alpha stable) for your platform from https://openponk.github.io/#download
 * Extract zip archive
-* Open Pharo using openponk.sh (Linux/Mac) or OpenPonk.exe (Windows)
+* Open OpenPonk Pharo image using openponk.sh (Linux/Mac) or OpenPonk.exe (Windows)
 * In the image, run the code above this way:
   * Click on background in the Pharo image
   * select Playground
-  * copy there code below
+  * copy there the code above
   * select the code
   * right click on selected code
   * select Do it
-* If there is a Warning window, click Proceed
+* Every time loading gets interrupted by a Warning window, click Proceed to continue
 
 ### Fast option
 Use this if you already have a Pharo virtual machine and you don't mind using new Pharo image.
@@ -31,15 +31,14 @@ Use this if you already have a Pharo virtual machine and you don't mind using ne
 * Download Kendrick beta image from https://ummisco.github.io/kendrick/#install
 * Open the image
 * In the image, run the code above
-* If there is a Warning window, click Proceed
+* Every time loading gets interrupted by a Warning window, click Proceed to continue
 
 ### Custom image option
 To load everything needed into any existing or new image, just run the code above.
 
-* In the image, run fthe code above
-* If there is a Warning window, click Proceed
+* In the image, run the code above
+* Every time loading gets interrupted by a Warning window, click Proceed to continue
 
-### Other options
 If you already have a Kendrick or OpenPonk in your image and do not want to replace it by version loaded by code above, you can load just part of required packages be replacing last line ("load.") by...
 * If you have Kendrick, but do NOT have OpenPonk
   * replace "load." by "load: #openponk.".
