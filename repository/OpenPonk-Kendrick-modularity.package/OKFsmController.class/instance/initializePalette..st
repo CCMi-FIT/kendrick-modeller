@@ -1,20 +1,19 @@
 initialization
 initializePalette: aPalette
 	aPalette
-		newCreationTool: 'Initial state'
-			factory: [ OPFsmInitialStateController new ]
-			icon: OPIcons current dcFsmInitialStateIcon;
-		newSeparator;
-		newCreationTool: 'State'
-			factory: [ OPFsmStateController new ]
+		newCreationTool: 'Status'
+			factory: [ OKFsmStatusController new ]
 			icon: OPIcons current dcFsmRegularStateIcon;
-		newCreationTool: 'Final state'
-			factory: [ OPFsmFinalStateController new ]
+		newCreationTool: 'Species'
+			factory: [ OKFsmSpeciesController new ]
+			icon: OPIcons current dcFsmFinalStateIcon;
+		newCreationTool: 'Patch'
+			factory: [ OKFsmPatchController new ]
 			icon: OPIcons current dcFsmFinalStateIcon;
 		newSeparator;
 		newConnectionCreationTool: 'Transition'
 			factory: [ OPFsmTransitionController new ]
 			icon: OPIcons current dcFsmTransitionIcon;
-		newConnectionCreationTool: 'Influence'
+		newConnectionCreationTool: 'Species Influence'
 			factory: [ OKFsmInfluenceController new ]
 			icon: OPIcons current dcFsmTransitionIcon

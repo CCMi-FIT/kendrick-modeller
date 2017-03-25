@@ -1,7 +1,7 @@
 rendering
 arcShapeFor: anEdge
 	| shape |
-	shape := OPTRArcShape new.
+	shape := OKTRStyledArcShape new.
 	shape
 		width: width;
 		radius: radius;

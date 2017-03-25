@@ -1,7 +1,7 @@
 examples
-exampleSpeciesSIR
+exampleSpecies
 	| model project |
-	model := self modelExampleSpeciesSIR.
+	model := self modelExampleSpecies.
 	project := OPProject named: model name.
 	project addModel: model.
 	OPWorkbench openProject: project.
