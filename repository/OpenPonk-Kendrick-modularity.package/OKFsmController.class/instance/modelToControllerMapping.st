@@ -6,4 +6,5 @@ modelToControllerMapping
 		at: OKFsmStatus put: OKFsmStatusController;
 		at: OPFsmTransition put: OPFsmTransitionController;
 		at: OKFsmInfluence put: OKFsmInfluenceController;
+		at: OKFsm put: OKFsmModuleController;
 		yourself

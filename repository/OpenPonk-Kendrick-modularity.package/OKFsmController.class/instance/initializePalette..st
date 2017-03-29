@@ -1,5 +1,6 @@
 initialization
 initializePalette: aPalette
+	| moduleButton |
 	aPalette
 		newCreationTool: 'Status'
 			factory: [ OKFsmStatusController new ]
@@ -16,4 +17,12 @@ initializePalette: aPalette
 			icon: OPIcons current dcFsmTransitionIcon;
 		newConnectionCreationTool: 'Species Influence'
 			factory: [ OKFsmInfluenceController new ]
-			icon: OPIcons current dcFsmTransitionIcon
+			icon: OPIcons current dcFsmTransitionIcon;
+		newSeparator.
+	moduleButton := aPalette addItem.
+	moduleButton
+		label: 'Module';
+		icon: OPIcons current dcOmlDiagramIcon;
+		action: [ OKModuleSelectionDialog
+				openForWorkbench: aPalette workbench
+				diagramController: aPalette diagramController ]

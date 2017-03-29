@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "OKFsmModuleController",
+	"name" : "OKElementADFeedback",
 	"pools" : [
 		 ],
-	"super" : "OPElementController",
+	"super" : "OPElementADFeedback",
 	"type" : "normal" }

@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "OKFsmModuleController",
+	"name" : "OKAcceptDenyFeedbackBuilder",
 	"pools" : [
 		 ],
-	"super" : "OPElementController",
+	"super" : "OPAcceptDenyFeedbackBuilder",
 	"type" : "normal" }
