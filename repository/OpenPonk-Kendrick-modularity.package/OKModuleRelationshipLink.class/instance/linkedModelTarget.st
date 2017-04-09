@@ -1,0 +1,3 @@
+forwarding
+linkedModelTarget
+	^ linkedModel target

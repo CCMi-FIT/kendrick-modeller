@@ -1,0 +1,14 @@
+{
+	"category" : "OpenPonk-Kendrick-modularity-Bridge",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OKBridge",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

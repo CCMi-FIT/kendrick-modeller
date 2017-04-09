@@ -1,0 +1,3 @@
+initialization
+initializePalette: aPalette
+	self addModuleButtonToPalette: aPalette

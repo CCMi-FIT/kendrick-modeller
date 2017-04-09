@@ -1,0 +1,14 @@
+{
+	"category" : "OpenPonk-Kendrick-modularity-Modularity",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OKModule",
+	"pools" : [
+		 ],
+	"super" : "OKModularityLink",
+	"type" : "normal" }

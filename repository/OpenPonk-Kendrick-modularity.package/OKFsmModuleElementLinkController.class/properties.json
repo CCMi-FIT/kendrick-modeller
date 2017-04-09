@@ -1,0 +1,14 @@
+{
+	"category" : "OpenPonk-Kendrick-modularity-KendrickFSM",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OKFsmModuleElementLinkController",
+	"pools" : [
+		 ],
+	"super" : "OKModuleElementLinkController",
+	"type" : "normal" }

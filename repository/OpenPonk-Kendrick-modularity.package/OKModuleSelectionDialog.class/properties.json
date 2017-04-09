@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"list",
-		"workbench",
-		"diagramController" ],
+		 ],
 	"name" : "OKModuleSelectionDialog",
 	"pools" : [
 		 ],
-	"super" : "ComposableModel",
+	"super" : "OKSelectionDialog",
 	"type" : "normal" }

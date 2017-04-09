@@ -1,5 +1,5 @@
 hooks
 createFigure
-	^ (OKFsmStateFigure on: self model)
+	^ (self figureClass on: self model)
 		controller: self;
 		yourself

@@ -4,7 +4,7 @@ menuCommandOn: aBuilder
 	(aBuilder item: #'OpenPonk FSM/Kendrick example')
 		icon: OPIcons current dcFsmDiagramIcon;
 		parent: #MostUsedTools;
-		action: [ self exampleEmpty ];
+		action: [ self exampleEmptyKendrickModel ];
 		with: [ (aBuilder item: #SIR)
 				parent: #'OpenPonk FSM/Kendrick example';
 				label: 'SIR example';

@@ -1,7 +1,7 @@
 examples
 modelExampleSIR
 	| model s i r |
-	model := OKFsm named: 'SIR'.
+	model := OKFsmKendrickModel named: 'SIR'.
 	s := OKFsmStatus named: 'S'.
 	i := OKFsmStatus named: 'I'.
 	r := OKFsmStatus named: 'R'.

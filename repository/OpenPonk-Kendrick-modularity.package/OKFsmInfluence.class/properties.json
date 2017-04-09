@@ -1,7 +1,8 @@
 {
-	"category" : "OpenPonk-Kendrick-modularity-FSM",
+	"category" : "OpenPonk-Kendrick-modularity-KendrickFSM",
 	"classinstvars" : [
 		 ],
+	"classtraitcomposition" : "OKTModularRelationship classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -10,5 +11,6 @@
 	"name" : "OKFsmInfluence",
 	"pools" : [
 		 ],
-	"super" : "OPFsmTransition",
+	"super" : "OKFsmTransition",
+	"traitcomposition" : "OKTModularRelationship",
 	"type" : "normal" }

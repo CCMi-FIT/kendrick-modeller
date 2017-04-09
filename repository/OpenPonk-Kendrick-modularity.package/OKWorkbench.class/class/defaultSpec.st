@@ -9,10 +9,10 @@ defaultSpec
 				addSplitter;
 				newColumn: [ :col | col add: #rightWorkspace ] ]
 			top: self toolbarHeight
-			bottom: self toolbarHeight;
+		"	bottom: self toolbarHeight;
 		newRow: [ :row | row add: #diffToolbar ]
 			origin: 0 @ 1
 			corner: 0 @ 1
 			offsetOrigin: 0 @ self toolbarHeight negated
-			offsetCorner: 500 @ 0;
+			offsetCorner: 500 @ 0";
 		yourself

@@ -1,0 +1,16 @@
+{
+	"category" : "OpenPonk-Kendrick-modularity-Modularity",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "OKTModuleController classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OKModuleController",
+	"pools" : [
+		 ],
+	"super" : "OPElementController",
+	"traitcomposition" : "OKTModuleController",
+	"type" : "normal" }

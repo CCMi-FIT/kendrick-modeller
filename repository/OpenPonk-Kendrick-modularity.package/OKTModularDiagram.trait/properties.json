@@ -1,0 +1,6 @@
+{
+	"category" : "OpenPonk-Kendrick-modularity-Modularity",
+	"classtraitcomposition" : "OKTModularModelObject classTrait",
+	"commentStamp" : "",
+	"name" : "OKTModularDiagram",
+	"traitcomposition" : "OKTModularModelObject" }

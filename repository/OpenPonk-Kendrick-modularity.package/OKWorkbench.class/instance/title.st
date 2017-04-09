@@ -1,3 +1,10 @@
 api
 title
-	^ 'OpenPonk-Kendrick modularity'
+	| s |
+	s := ''.
+	project
+		ifNotNil: [ 
+			project dirty
+				ifTrue: [ s := '* ' ].
+			s := s , project projectName , ' - ' ].
+	^ s , 'OpenPonk-Kendrick modularity'

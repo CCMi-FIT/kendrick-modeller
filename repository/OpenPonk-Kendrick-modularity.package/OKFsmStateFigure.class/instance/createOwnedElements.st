@@ -1,7 +1,6 @@
 creating - subelements
 createOwnedElements
-	self createAdornment.
-	self createVertexAdornment.
+	super createOwnedElements.
 	label := RTLabel new
 		color: Color black;
 		height: 11;

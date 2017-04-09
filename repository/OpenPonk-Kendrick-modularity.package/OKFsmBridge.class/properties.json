@@ -1,0 +1,14 @@
+{
+	"category" : "OpenPonk-Kendrick-modularity-KendrickFSMBridge",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OKFsmBridge",
+	"pools" : [
+		 ],
+	"super" : "OKBridge",
+	"type" : "normal" }

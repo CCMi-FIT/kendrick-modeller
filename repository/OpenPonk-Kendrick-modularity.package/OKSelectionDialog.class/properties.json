@@ -1,0 +1,16 @@
+{
+	"category" : "OpenPonk-Kendrick-modularity-Spec",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"list",
+		"workbench",
+		"diagramController" ],
+	"name" : "OKSelectionDialog",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"type" : "normal" }

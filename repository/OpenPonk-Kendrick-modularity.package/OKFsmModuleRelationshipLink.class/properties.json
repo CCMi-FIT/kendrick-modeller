@@ -1,0 +1,15 @@
+{
+	"category" : "OpenPonk-Kendrick-modularity-KendrickFSM",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"delayStateName",
+		"delayProbability" ],
+	"name" : "OKFsmModuleRelationshipLink",
+	"pools" : [
+		 ],
+	"super" : "OKModuleRelationshipLink",
+	"type" : "normal" }

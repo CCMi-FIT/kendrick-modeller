@@ -1,7 +1,7 @@
 examples
 modelExampleSpeciesSIR
 	| model r1S r1I r1R r2S r2I r2R mS mI mR |
-	model := OKFsm named: 'SIR Species'.
+	model := OKFsmKendrickModel named: 'SIR Species'.
 	r1S := OKFsmStatus named: 'S - Reservoir 1'.
 	r1I := OKFsmStatus named: 'I - Reservoir 1'.
 	r1R := OKFsmStatus named: 'R - Reservoir 1'.

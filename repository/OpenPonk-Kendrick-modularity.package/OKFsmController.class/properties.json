@@ -1,14 +1,16 @@
 {
-	"category" : "OpenPonk-Kendrick-modularity-FSM",
+	"category" : "OpenPonk-Kendrick-modularity-KendrickFSM",
 	"classinstvars" : [
 		 ],
+	"classtraitcomposition" : "OKTModularDiagramController classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"modelToLinkControllerMapping" ],
 	"name" : "OKFsmController",
 	"pools" : [
 		 ],
 	"super" : "OPFsmController",
+	"traitcomposition" : "OKTModularDiagramController",
 	"type" : "normal" }

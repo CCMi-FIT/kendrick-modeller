@@ -1,7 +1,8 @@
 {
-	"category" : "OpenPonk-Kendrick-modularity-FSM",
+	"category" : "OpenPonk-Kendrick-modularity-KendrickFSM",
 	"classinstvars" : [
 		 ],
+	"classtraitcomposition" : "OKTModularModelObject classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -11,4 +12,5 @@
 	"pools" : [
 		 ],
 	"super" : "OPFsmVertex",
+	"traitcomposition" : "OKTModularModelObject",
 	"type" : "normal" }

@@ -1,7 +1,7 @@
 examples
 modelExampleSpecies
 	| model reservoir1 reservoir2 mosquito |
-	model := OKFsm named: 'Species'.
+	model := OKFsmKendrickModel named: 'Species'.
 	reservoir1 := OKFsmSpecies named: 'Reservoir 1'.
 	reservoir2 := OKFsmSpecies named: 'Reservoir 2'.
 	mosquito := OKFsmSpecies named: 'Mosquito'.

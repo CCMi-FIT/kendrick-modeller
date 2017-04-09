@@ -1,0 +1,3 @@
+hooks
+figureClass
+	^ OKFsmSpeciesFigure
