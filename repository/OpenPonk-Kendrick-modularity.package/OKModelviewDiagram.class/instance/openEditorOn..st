@@ -4,5 +4,4 @@ openEditorOn: aModel
 	editor workbench: self.
 	editor plugin: (self pluginRegistry pluginFor: aModel).
 	self rebuildWidget.
-	editor openModel: aModel.
-	editor paletteModel rebuildWidget
+	editor openModel: aModel

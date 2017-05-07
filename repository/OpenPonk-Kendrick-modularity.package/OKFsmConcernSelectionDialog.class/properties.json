@@ -1,0 +1,14 @@
+{
+	"category" : "OpenPonk-Kendrick-modularity-KendrickFSM",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OKFsmConcernSelectionDialog",
+	"pools" : [
+		 ],
+	"super" : "OKModuleSelectionDialog",
+	"type" : "normal" }

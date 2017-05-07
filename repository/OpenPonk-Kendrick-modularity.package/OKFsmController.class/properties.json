@@ -12,5 +12,5 @@
 	"pools" : [
 		 ],
 	"super" : "OPFsmController",
-	"traitcomposition" : "OKTModularDiagramController",
+	"traitcomposition" : "OKTModularDiagramController - {#addModuleButtonToPalette:. #addModuleElementButtonToPalette:}",
 	"type" : "normal" }

@@ -1,3 +1,3 @@
 accessing
 probability: anExpression
-	dcName := anExpression
+	self name: anExpression

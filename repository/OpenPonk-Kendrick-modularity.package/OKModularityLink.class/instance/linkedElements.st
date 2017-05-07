@@ -1,0 +1,3 @@
+forwarding
+linkedElements
+	^ linkedModel elements

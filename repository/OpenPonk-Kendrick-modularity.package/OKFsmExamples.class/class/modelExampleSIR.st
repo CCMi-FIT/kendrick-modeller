@@ -1,18 +1,20 @@
 examples
 modelExampleSIR
-	| model s i r |
+	| model s i r e |
 	model := OKFsmKendrickModel named: 'SIR'.
 	s := OKFsmStatus named: 'S'.
 	i := OKFsmStatus named: 'I'.
 	r := OKFsmStatus named: 'R'.
+	e := OKFsmEmptyStatus new.
 	model
 		add: s;
 		add: i;
-		add: r.
+		add: r;
+		add: e.
 	model
 		addAll:
-			{(s -> s name: 'lambda').
-			(s -> i name: 'mu').
+			{(s -> i name: 'lambda').
 			(i -> r name: 'gamma').
-			(r -> r name: 'delta')}.
+			(r -> e name: 'mu').
+			(e -> s name: 'mu')}.
 	^ model

@@ -1,3 +1,3 @@
 accessing
 models
-	^ diagramController selectPossibleModules: self project models
+	^ diagramController selectPossibleModules

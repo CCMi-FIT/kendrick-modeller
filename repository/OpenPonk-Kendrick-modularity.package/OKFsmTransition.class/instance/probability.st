@@ -1,3 +1,3 @@
 accessing
 probability
-	^ dcName
+	^ self name

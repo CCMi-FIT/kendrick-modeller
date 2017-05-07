@@ -1,11 +1,11 @@
-figures
+as yet unclassified
 createFigure
 	^ OPRTCallbackBuilder
 		block: [ :view | 
 			| roassalShape |
 			roassalShape := RTBox new
 				height: 30;
-				width: 150;
+				width: 120;
 				color: Color veryVeryLightGray;
 				borderColor: Color veryVeryDarkGray;
 				yourself.
