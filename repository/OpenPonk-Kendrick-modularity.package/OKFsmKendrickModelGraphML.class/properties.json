@@ -1,0 +1,14 @@
+{
+	"category" : "OpenPonk-Kendrick-modularity-KendrickFSM",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OKFsmKendrickModelGraphML",
+	"pools" : [
+		 ],
+	"super" : "OKFsmGraphML",
+	"type" : "normal" }

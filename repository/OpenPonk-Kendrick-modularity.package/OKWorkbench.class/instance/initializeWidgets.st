@@ -1,8 +1,8 @@
 initialization
 initializeWidgets
 	topToolbar := self instantiate: OKWorkbenchToolbar.
-	leftWorkspace := self instantiate: OKWorkspace.
-	rightWorkspace := self instantiate: OKWorkspace.
+	editWorkspace := self instantiate: OKEditWorkspace.
+	resultWorkspace := self instantiate: OKResultWorkspace.
 	diffToolbar := self instantiate: OKDiffToolbar.
-	leftWorkspace workbench: self.
-	rightWorkspace workbench: self
+	editWorkspace workbench: self.
+	resultWorkspace workbench: self

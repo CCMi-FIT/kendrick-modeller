@@ -11,5 +11,5 @@ openProject: aProject
 	projectController openAllDiagrams.
 	project models
 		ifNotEmpty: [ :models | 
-			leftWorkspace focusEditorOf: models first.
-			rightWorkspace focusEditorOf: models last ]
+			editWorkspace focusEditorOf: models first.
+			resultWorkspace focusEditorOf: models last ]

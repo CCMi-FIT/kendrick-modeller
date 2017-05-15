@@ -1,0 +1,3 @@
+hooks
+defaultModelviews
+	^ self subclassResponsibility

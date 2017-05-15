@@ -5,9 +5,9 @@ defaultSpec
 			height: self toolbarHeight;
 		newRow: [ :row | 
 			row
-				newColumn: [ :col | col add: #leftWorkspace ];
+				newColumn: [ :col | col add: #editWorkspace ];
 				addSplitter;
-				newColumn: [ :col | col add: #rightWorkspace ] ]
+				newColumn: [ :col | col add: #resultWorkspace ] ]
 			top: self toolbarHeight
 		"	bottom: self toolbarHeight;
 		newRow: [ :row | row add: #diffToolbar ]

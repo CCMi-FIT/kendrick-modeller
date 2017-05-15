@@ -7,12 +7,12 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"topToolbar",
-		"leftWorkspace",
-		"rightWorkspace",
 		"project",
 		"projectController",
 		"diffToolbar",
-		"pluginRegistry" ],
+		"pluginRegistry",
+		"editWorkspace",
+		"resultWorkspace" ],
 	"name" : "OKWorkbench",
 	"pools" : [
 		 ],

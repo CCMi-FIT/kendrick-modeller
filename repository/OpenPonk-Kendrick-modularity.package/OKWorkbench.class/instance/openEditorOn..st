@@ -1,7 +1,7 @@
 project handling
 openEditorOn: aModel
 	(self projectController hasDiagram: aModel)
-		ifTrue: [ leftWorkspace focusEditorOf: aModel.
+		ifTrue: [ editWorkspace focusEditorOf: aModel.
 			^ self ].
-	leftWorkspace openEditorOn: aModel.
-	rightWorkspace openEditorOn: aModel
+	editWorkspace openEditorOn: aModel.
+	resultWorkspace openEditorOn: aModel

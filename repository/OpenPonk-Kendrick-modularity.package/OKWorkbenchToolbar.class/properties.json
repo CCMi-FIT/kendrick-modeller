@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"toolbar",
+		"activeEditor" ],
 	"name" : "OKWorkbenchToolbar",
 	"pools" : [
 		 ],
-	"super" : "OPWorkbenchToolbar",
+	"super" : "DynamicComposableModel",
 	"type" : "normal" }

@@ -1,0 +1,3 @@
+serialize/materialize
+graphmlClass
+	^ OKFsmKendrickModelGraphML

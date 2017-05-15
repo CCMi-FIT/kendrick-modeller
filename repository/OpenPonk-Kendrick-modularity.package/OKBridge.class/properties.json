@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"transformedModels",
+		"dirty",
+		"originalModels" ],
 	"name" : "OKBridge",
 	"pools" : [
 		 ],

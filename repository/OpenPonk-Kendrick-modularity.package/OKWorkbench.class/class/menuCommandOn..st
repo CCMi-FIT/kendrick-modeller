@@ -1,8 +1,8 @@
-example
+as yet unclassified
 menuCommandOn: aBuilder
 	<worldMenu>
-	(aBuilder item: #'OpenPonk-Kendrick modularity example')
+	(aBuilder item: #'OpenPonk-Kendrick Modularity Tool')
 		icon: OPIcons current dynacaseIcon;
 		parent: #MostUsedTools;
-		action: [ self example ];
+		action: [ self open ];
 		withSeparatorAfter

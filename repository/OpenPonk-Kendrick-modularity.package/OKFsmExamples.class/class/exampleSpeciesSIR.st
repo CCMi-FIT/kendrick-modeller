@@ -1,8 +1,3 @@
 examples
 exampleSpeciesSIR
-	| model project |
-	model := self modelExampleSpeciesSIR.
-	project := OPProject named: model name.
-	project addModel: model.
-	OPWorkbench openProject: project.
-	^ project
+	self openExamples: {self modelExampleSpeciesSIR}

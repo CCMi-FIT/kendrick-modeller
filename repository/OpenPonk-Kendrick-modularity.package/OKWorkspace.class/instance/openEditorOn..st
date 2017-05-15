@@ -1,10 +1,11 @@
 opening
 openEditorOn: aModel
 	| tab plugin widget modelspace |
-	modelspace := OKModelspace new.
+	modelspace := self newModelspace.
 	modelspace workspace: self.
 	plugin := self pluginRegistry pluginFor: aModel.
 	tab := self newTab.
+	tab closeable: false.
 	modelspaces at: aModel put: (Array with: modelspace with: tab).
 	modelspace owner: tab.
 	modelspace openEditorOn: aModel.
