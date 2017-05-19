@@ -1,4 +1,4 @@
-api
+private
 sort
 	[ unmarkedNodes isEmpty ]
 		whileFalse: [ | current |

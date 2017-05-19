@@ -8,7 +8,9 @@
 	"instvars" : [
 		"transformedModels",
 		"dirty",
-		"originalModels" ],
+		"originalModels",
+		"project",
+		"running" ],
 	"name" : "OKBridge",
 	"pools" : [
 		 ],

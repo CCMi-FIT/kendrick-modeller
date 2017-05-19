@@ -1,4 +1,4 @@
 api
 transform
-	self flag: #todo.
+	self halt.
 	dirty := false

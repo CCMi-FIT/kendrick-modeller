@@ -1,4 +1,4 @@
-api
+private
 models: models
 	sortedModels := OrderedCollection new.
 	temporarilyMarkedNodes := OrderedCollection new.
