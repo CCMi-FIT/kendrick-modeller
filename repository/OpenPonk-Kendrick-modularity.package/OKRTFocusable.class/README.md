@@ -1,0 +1,1 @@
+I am an modification of OpenPonk-Roassal interaction allowing visualising that element is focused. I am here to make sure it is possible also with fixed elements.

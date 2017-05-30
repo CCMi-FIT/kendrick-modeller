@@ -1,7 +1,8 @@
 adding
-addAsTargetFor: anEdgeController
-	self assert: (self canBeTargetFor: anEdgeController).
-	anEdgeController target: self.
-	anEdgeController model target ifNil: [ anEdgeController model target: self model ].
-	anEdgeController attachTo: self diagramController.
-	self model owner add: anEdgeController model
+addAsTargetFor: aRelationshipController
+	self assert: (self canBeTargetFor: aRelationshipController).
+	aRelationshipController target: self.
+	aRelationshipController model
+		ifNotNil: [ aRelationshipController model target: self model ].
+	aRelationshipController attachTo: self diagramController.
+	self model owner add: aRelationshipController model

@@ -1,7 +1,7 @@
 project handling
 newProject
-	| project |
-	project := OKProject
-		named: (UIManager default request: 'Project name' initialAnswer: 'New Project').
-	project ifNil: [ ^ self ].
-	self loadProject: project
+	| projectClasses |
+	projectClasses := OKProject allSubclasses asOrderedCollection.
+	projectClasses size = 1
+		ifTrue: [ ^ self newProject: projectClasses first ].
+	^ OKNewProjectSelectionDialog openForProjectClasses: projectClasses

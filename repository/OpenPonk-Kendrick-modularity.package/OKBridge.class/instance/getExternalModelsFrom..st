@@ -1,0 +1,3 @@
+private
+getExternalModelsFrom: anOpenPonkDiagram
+	^ self subclassResponsibility

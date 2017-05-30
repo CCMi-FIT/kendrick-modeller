@@ -1,4 +1,4 @@
 testing
 canBeSourceFor: aController
-	^ (aController modelClass isKindOf: OKFsmInfluence)
+	^ (aController isKindOf: OKFsmInfluenceController)
 		or: [ aController isKindOf: OKModuleRelationshipLinkController ]

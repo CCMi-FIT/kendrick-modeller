@@ -1,0 +1,1 @@
+I am an abstract class - element representing another diagram or element from another diagram. Look at my subclasses for more info.

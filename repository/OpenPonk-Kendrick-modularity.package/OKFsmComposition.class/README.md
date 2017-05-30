@@ -1,0 +1,1 @@
+I am an abstract OpenPonk-friendly representation of Kendrick composition.

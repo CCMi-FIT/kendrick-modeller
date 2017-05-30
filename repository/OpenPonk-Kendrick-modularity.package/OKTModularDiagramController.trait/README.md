@@ -1,0 +1,1 @@
+I am a trait defining some features of modular diagram's controller.

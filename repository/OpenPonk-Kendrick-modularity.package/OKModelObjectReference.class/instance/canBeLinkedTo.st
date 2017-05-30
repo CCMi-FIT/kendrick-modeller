@@ -1,0 +1,3 @@
+testing
+canBeLinkedTo
+	^ false

@@ -1,6 +1,6 @@
 project handling
 openProject: aProject
-	self assert: [ aProject isKindOf: OPProject ].
+	self assert: [ aProject isKindOf: OKProject ].
 	project := aProject.
 	(projectController := OKProjectController new)
 		project: project;

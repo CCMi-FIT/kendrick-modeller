@@ -1,3 +1,3 @@
 accessing
 resultModels
-	^ resultModels value
+	^ resultModels

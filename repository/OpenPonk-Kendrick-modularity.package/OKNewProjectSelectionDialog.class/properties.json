@@ -1,0 +1,14 @@
+{
+	"category" : "OpenPonk-Kendrick-modularity-Spec",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"list" ],
+	"name" : "OKNewProjectSelectionDialog",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"type" : "normal" }

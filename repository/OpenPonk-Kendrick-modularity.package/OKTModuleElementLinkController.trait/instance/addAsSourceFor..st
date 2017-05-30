@@ -1,5 +1,6 @@
 adding
-addAsSourceFor: anEdgeController
-	self assert: (self canBeSourceFor: anEdgeController).
-	anEdgeController source: self.
-	anEdgeController model source ifNil: [ anEdgeController model source: self model ]
+addAsSourceFor: aRelationshipController
+	self assert: (self canBeSourceFor: aRelationshipController).
+	aRelationshipController source: self.
+	aRelationshipController model
+		ifNotNil: [ aRelationshipController model source: self model ]

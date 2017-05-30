@@ -5,7 +5,7 @@
 	"classtraitcomposition" : "OKTModularDiagram classTrait",
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "JanBliznicenko 5/28/2017 17:19",
 	"instvars" : [
 		"attributes" ],
 	"name" : "OKFsm",
