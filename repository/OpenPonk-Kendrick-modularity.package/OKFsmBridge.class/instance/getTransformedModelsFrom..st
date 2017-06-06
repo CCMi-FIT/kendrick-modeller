@@ -1,4 +1,4 @@
 private
-getTransformedModelsFrom: anOpenPonkDiagram
+getTransformedModelsFrom: aKendrickDiagram
 	self flag: #todo.
 	^ {}

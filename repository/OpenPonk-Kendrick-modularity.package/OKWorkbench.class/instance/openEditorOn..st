@@ -3,5 +3,4 @@ openEditorOn: aModel
 	(self projectController hasDiagram: aModel)
 		ifTrue: [ editWorkspace focusEditorOf: aModel.
 			^ self ].
-	editWorkspace openEditorOn: aModel.
-	resultWorkspace openEditorOn: aModel
+	editWorkspace openEditorOn: aModel

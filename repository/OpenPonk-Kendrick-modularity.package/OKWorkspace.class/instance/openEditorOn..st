@@ -15,6 +15,7 @@ openEditorOn: aModel
 		label: aModel name;
 		icon: plugin icon;
 		retrievingBlock: [ widget ];
+		whenTabSelected: [ focusedModel := aModel ];
 		whenBuiltDo: [ :w | 
 			w widget when: #tabDeleted send: #tabDeleted to: modelspace.
 			w widget when: #tabDeleted evaluate: [ :t | modelspaces removeKey: aModel ] ].

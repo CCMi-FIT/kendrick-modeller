@@ -11,7 +11,8 @@
 		"originalModels",
 		"externalModels",
 		"transformedModels",
-		"dependingModels" ],
+		"dependingModels",
+		"updatedModels" ],
 	"name" : "OKBridge",
 	"pools" : [
 		 ],

@@ -25,5 +25,6 @@ updateLinksIn: anOpenPonkDiagram
 					(setOfTransformedElements
 						detect: [ :any | eachLink canRelinkTo: any ]
 						ifNone: [ OKModelObjectReference named: eachLink name ]) ].
-	resultElementsToLink keysAndValuesDo: [ :link :newElement | link linkedModel: newElement ].
+	resultElementsToLink
+		keysAndValuesDo: [ :link :newElement | link linkedModel: newElement ].
 	anOpenPonkDiagram changed

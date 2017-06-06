@@ -21,5 +21,4 @@ addModel: aModel
 	models add: aModel.
 	(aModel respondsTo: #project:)
 		ifTrue: [ aModel project: self ].
-	resultModels at: aModel put: OrderedCollection new.
 	self updateResultsForAdded: aModel

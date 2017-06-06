@@ -1,5 +1,5 @@
 initialization
 initialize
 	super initialize.
-	resultModels := Dictionary new.
+	resultModels := OrderedCollection new.
 	bridge := self bridgeClass project: self

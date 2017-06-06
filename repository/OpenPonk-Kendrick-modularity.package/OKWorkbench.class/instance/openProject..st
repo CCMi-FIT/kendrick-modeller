@@ -9,7 +9,6 @@ openProject: aProject
 	project whenChanged: [ self updateTitle ].
 	project beClean.
 	projectController openAllDiagrams.
-	project models
-		ifNotEmpty: [ :models | 
-			editWorkspace focusEditorOf: models first.
-			resultWorkspace focusEditorOf: models last ]
+	project models ifNotEmpty: [ :models | editWorkspace focusEditorOf: models last ].
+	project resultModels ifNotEmpty: [ :models | resultWorkspace focusEditorOf: models last ].
+	project whenUpdatedResultsDo: [ resultWorkspace updateAllFrom: project ]

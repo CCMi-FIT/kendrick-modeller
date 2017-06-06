@@ -1,18 +1,8 @@
 updating
 updateResultDiagrams
-	| diagramsToReplace diagramsToAdd |
-	diagramsToReplace := resultModels values
-		flatCollect: [ :eachSet | 
-			eachSet
-				collect: [ :each | 
-					each
-						->
-							((bridge transformedModelsOf: each)
-								detect: [ :any | any name = each name ]
-								ifNone: [ nil ]) ] ].
-	diagramsToAdd := bridge transformedModels values
-		flatCollect: [ :eachNewSet | 
-			eachNewSet
-				reject: [ :eachNew | 
-					resultModels
-						anySatisfy: [ :anyOldSet | anyOldSet anySatisfy: [ :anyOld | anyOld name = eachNew name ] ] ] ]
+	| newResultModels transformedModels |
+	newResultModels := OrderedCollection new.
+	transformedModels := bridge transformedModels.
+	models do: [ :each | newResultModels addAll: (transformedModels at: each) ].
+	resultModels := newResultModels.
+	self announceUpdated
