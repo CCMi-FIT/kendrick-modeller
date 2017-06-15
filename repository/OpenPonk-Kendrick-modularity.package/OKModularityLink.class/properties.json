@@ -1,16 +1,15 @@
 {
-	"category" : "OpenPonk-Kendrick-modularity-Modularity",
-	"classinstvars" : [
-		 ],
 	"classtraitcomposition" : "OKTModularModelObject classTrait",
-	"classvars" : [
-		 ],
-	"commentStamp" : "JanBliznicenko 5/28/2017 17:41",
+	"classvars" : [ ],
 	"instvars" : [
-		"linkedModel" ],
+		"linkedModel"
+	],
 	"name" : "OKModularityLink",
-	"pools" : [
-		 ],
+	"commentStamp" : "JanBliznicenko 5/28/2017 17:41",
 	"super" : "OPMElement",
 	"traitcomposition" : "OKTModularModelObject",
-	"type" : "normal" }
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "OpenPonk-Kendrick-modularity-Modularity"
+}

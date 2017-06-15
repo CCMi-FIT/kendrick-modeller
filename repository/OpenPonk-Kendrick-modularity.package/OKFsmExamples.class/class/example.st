@@ -5,6 +5,6 @@ example
 			{self modelExampleSIR.
 			self modelExampleSpecies.
 			self modelExampleSpeciesSIR.
-			self modelExampleEmptyKendrickModel.
-			self modelExampleEmptyComposition}
+			self modelExampleEmptyConcern.
+			self modelExampleEmptyModel}
 		named: 'SIR species example'

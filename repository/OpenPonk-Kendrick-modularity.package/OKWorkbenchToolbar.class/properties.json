@@ -1,15 +1,14 @@
 {
-	"category" : "OpenPonk-Kendrick-modularity-Spec",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "DynamicComposableModel",
+	"category" : "OpenPonk-Kendrick-modularity-Spec",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"toolbar",
-		"activeEditor" ],
+		"activeEditor"
+	],
 	"name" : "OKWorkbenchToolbar",
-	"pools" : [
-		 ],
-	"super" : "DynamicComposableModel",
-	"type" : "normal" }
+	"type" : "normal"
+}

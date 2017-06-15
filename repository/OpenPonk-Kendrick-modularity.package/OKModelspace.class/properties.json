@@ -1,16 +1,15 @@
 {
-	"category" : "OpenPonk-Kendrick-modularity-Spec",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "ComposableModel",
+	"category" : "OpenPonk-Kendrick-modularity-Spec",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"tabManager",
 		"workspace",
-		"tabs" ],
+		"tabs"
+	],
 	"name" : "OKModelspace",
-	"pools" : [
-		 ],
-	"super" : "ComposableModel",
-	"type" : "normal" }
+	"type" : "normal"
+}

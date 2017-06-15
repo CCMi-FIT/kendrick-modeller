@@ -1,0 +1,3 @@
+import
+diagramType
+	^ OKFsmKendrickConcern

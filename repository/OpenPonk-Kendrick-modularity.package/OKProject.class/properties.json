@@ -1,17 +1,16 @@
 {
-	"category" : "OpenPonk-Kendrick-modularity-Modularity",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "JanBliznicenko 5/28/2017 17:49",
+	"super" : "OPProject",
+	"category" : "OpenPonk-Kendrick-modularity-Modularity",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"enabledPlugins",
 		"resultModels",
 		"bridge",
-		"announcer" ],
+		"announcer"
+	],
 	"name" : "OKProject",
-	"pools" : [
-		 ],
-	"super" : "OPProject",
-	"type" : "normal" }
+	"type" : "normal"
+}

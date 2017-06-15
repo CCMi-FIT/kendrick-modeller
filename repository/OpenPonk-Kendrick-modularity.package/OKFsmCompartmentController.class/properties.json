@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "OKFsmStateController",
+	"category" : "OpenPonk-Kendrick-modularity-KendrickFSM",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "OKFsmCompartmentController",
+	"type" : "normal"
+}

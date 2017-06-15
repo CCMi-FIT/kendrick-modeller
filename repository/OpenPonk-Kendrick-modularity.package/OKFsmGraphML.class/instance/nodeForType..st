@@ -1,6 +1,6 @@
 import
 nodeForType: aType
-	^ ({(#patch -> OKFsmPatch).
+	^ ({(#status -> OKFsmStatus).
+	(#emptyStatus -> OKFsmEmptyStatus).
 	(#species -> OKFsmSpecies).
-	(#status -> OKFsmStatus).
-	(#emptyStatus -> OKFsmEmptyStatus)} asDictionary at: aType) new
+	(#compartment -> OKFsmCompartment)} asDictionary at: aType) new

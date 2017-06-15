@@ -1,14 +1,13 @@
 {
-	"category" : "OpenPonk-Kendrick-modularity-KendrickFSM",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"splitIndexes" ],
-	"name" : "OKFsmModuleElementLink",
-	"pools" : [
-		 ],
 	"super" : "OKModuleElementLink",
-	"type" : "normal" }
+	"category" : "OpenPonk-Kendrick-modularity-KendrickFSM",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"splitIndexes"
+	],
+	"name" : "OKFsmModuleElementLink",
+	"type" : "normal"
+}

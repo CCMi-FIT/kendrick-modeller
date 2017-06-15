@@ -1,10 +1,10 @@
 {
-	"category" : "OpenPonk-Kendrick-modularity-Bridge",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "JanBliznicenko 5/28/2017 17:16",
+	"super" : "Object",
+	"category" : "OpenPonk-Kendrick-modularity-Bridge",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"dirty",
 		"project",
@@ -12,9 +12,8 @@
 		"externalModels",
 		"transformedModels",
 		"dependingModels",
-		"updatedModels" ],
+		"updatedModels"
+	],
 	"name" : "OKBridge",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

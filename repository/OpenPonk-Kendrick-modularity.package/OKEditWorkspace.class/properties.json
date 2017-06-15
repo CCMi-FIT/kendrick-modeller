@@ -1,14 +1,11 @@
 {
-	"category" : "OpenPonk-Kendrick-modularity-Spec",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "OKEditWorkspace",
-	"pools" : [
-		 ],
 	"super" : "OKWorkspace",
-	"type" : "normal" }
+	"category" : "OpenPonk-Kendrick-modularity-Spec",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "OKEditWorkspace",
+	"type" : "normal"
+}

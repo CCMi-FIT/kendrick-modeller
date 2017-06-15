@@ -1,14 +1,11 @@
 {
-	"category" : "OpenPonk-Kendrick-modularity-Spec",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "OKPersistenceProjectReader",
-	"pools" : [
-		 ],
 	"super" : "OPPersistenceProjectReader",
-	"type" : "normal" }
+	"category" : "OpenPonk-Kendrick-modularity-Spec",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "OKPersistenceProjectReader",
+	"type" : "normal"
+}

@@ -1,16 +1,13 @@
 {
-	"category" : "OpenPonk-Kendrick-modularity-Modularity",
-	"classinstvars" : [
-		 ],
 	"classtraitcomposition" : "OKTModuleRelationshipLinkController classTrait",
-	"classvars" : [
-		 ],
-	"commentStamp" : "JanBliznicenko 5/28/2017 17:47",
-	"instvars" : [
-		 ],
+	"classvars" : [ ],
+	"instvars" : [ ],
 	"name" : "OKModuleRelationshipLinkController",
-	"pools" : [
-		 ],
+	"commentStamp" : "JanBliznicenko 5/28/2017 17:47",
 	"super" : "OPRelationshipController",
 	"traitcomposition" : "OKTModuleRelationshipLinkController",
-	"type" : "normal" }
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "OpenPonk-Kendrick-modularity-Modularity"
+}

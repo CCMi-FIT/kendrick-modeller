@@ -1,15 +1,14 @@
 {
-	"category" : "OpenPonk-Kendrick-modularity-Spec",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "DynamicComposableModel",
+	"category" : "OpenPonk-Kendrick-modularity-Spec",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"modelspace",
-		"editor" ],
+		"editor"
+	],
 	"name" : "OKModelview",
-	"pools" : [
-		 ],
-	"super" : "DynamicComposableModel",
-	"type" : "normal" }
+	"type" : "normal"
+}

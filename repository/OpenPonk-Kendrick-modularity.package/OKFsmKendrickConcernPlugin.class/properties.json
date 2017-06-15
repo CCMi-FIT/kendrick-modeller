@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "OPFsmPlugin",
+	"category" : "OpenPonk-Kendrick-modularity-KendrickFSM",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "OKFsmKendrickConcernPlugin",
+	"type" : "normal"
+}

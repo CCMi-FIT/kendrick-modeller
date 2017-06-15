@@ -1,14 +1,13 @@
 {
-	"category" : "OpenPonk-Kendrick-modularity-KendrickFSM",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"label" ],
-	"name" : "OKFsmStateFigure",
-	"pools" : [
-		 ],
 	"super" : "OPFsmAbstractStateFigure",
-	"type" : "normal" }
+	"category" : "OpenPonk-Kendrick-modularity-KendrickFSM",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"label"
+	],
+	"name" : "OKFsmStateFigure",
+	"type" : "normal"
+}

@@ -1,4 +1,5 @@
 {
-	"category" : "OpenPonk-Kendrick-modularity-Modularity",
+	"name" : "OKTModularModelObject",
 	"commentStamp" : "JanBliznicenko 5/28/2017 18:16",
-	"name" : "OKTModularModelObject" }
+	"category" : "OpenPonk-Kendrick-modularity-Modularity"
+}

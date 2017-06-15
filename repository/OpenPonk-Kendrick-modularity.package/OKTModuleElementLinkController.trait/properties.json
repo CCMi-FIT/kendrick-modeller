@@ -1,6 +1,7 @@
 {
-	"category" : "OpenPonk-Kendrick-modularity-Modularity",
-	"classtraitcomposition" : "OKTModularityLinkController classTrait",
 	"commentStamp" : "JanBliznicenko 5/28/2017 18:18",
-	"name" : "OKTModuleElementLinkController",
-	"traitcomposition" : "OKTModularityLinkController" }
+	"traitcomposition" : "OKTModularityLinkController",
+	"classtraitcomposition" : "OKTModularityLinkController classTrait",
+	"category" : "OpenPonk-Kendrick-modularity-Modularity",
+	"name" : "OKTModuleElementLinkController"
+}

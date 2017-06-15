@@ -1,3 +1,3 @@
 examples
 exampleEmptyComposition
-	self openExamples: {self modelExampleEmptyComposition}
+	self openExamples: {self modelExampleEmptyModel}

@@ -1,6 +1,6 @@
 initialization
 addModuleElementButtonToPalette: aPalette
-	aPalette addItem
+	aPalette addEntry
 		label: 'Element from module';
 		icon: OPIcons current dcOmlBoxIcon;
 		action: [ aPalette deselectTool.

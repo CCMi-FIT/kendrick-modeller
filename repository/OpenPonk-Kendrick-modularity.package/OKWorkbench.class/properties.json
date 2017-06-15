@@ -1,10 +1,10 @@
 {
-	"category" : "OpenPonk-Kendrick-modularity-Spec",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "ComposableModel",
+	"category" : "OpenPonk-Kendrick-modularity-Spec",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"topToolbar",
 		"project",
@@ -12,9 +12,8 @@
 		"diffToolbar",
 		"pluginRegistry",
 		"editWorkspace",
-		"resultWorkspace" ],
+		"resultWorkspace"
+	],
 	"name" : "OKWorkbench",
-	"pools" : [
-		 ],
-	"super" : "ComposableModel",
-	"type" : "normal" }
+	"type" : "normal"
+}

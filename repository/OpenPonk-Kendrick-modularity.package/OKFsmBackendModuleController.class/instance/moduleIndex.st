@@ -1,3 +1,0 @@
-figures
-moduleIndex
-	^ 0

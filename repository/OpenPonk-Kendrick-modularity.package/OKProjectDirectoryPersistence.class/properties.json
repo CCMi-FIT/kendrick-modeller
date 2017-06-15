@@ -1,14 +1,11 @@
 {
-	"category" : "OpenPonk-Kendrick-modularity-Modularity",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "JanBliznicenko 5/28/2017 17:49",
-	"instvars" : [
-		 ],
-	"name" : "OKProjectDirectoryPersistence",
-	"pools" : [
-		 ],
 	"super" : "OPProjectDirectoryPersistence",
-	"type" : "normal" }
+	"category" : "OpenPonk-Kendrick-modularity-Modularity",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "OKProjectDirectoryPersistence",
+	"type" : "normal"
+}

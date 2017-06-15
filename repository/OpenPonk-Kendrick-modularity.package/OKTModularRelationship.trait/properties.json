@@ -1,6 +1,7 @@
 {
-	"category" : "OpenPonk-Kendrick-modularity-Modularity",
-	"classtraitcomposition" : "OKTModularModelObject classTrait",
 	"commentStamp" : "JanBliznicenko 5/28/2017 18:17",
-	"name" : "OKTModularRelationship",
-	"traitcomposition" : "OKTModularModelObject" }
+	"traitcomposition" : "OKTModularModelObject",
+	"classtraitcomposition" : "OKTModularModelObject classTrait",
+	"category" : "OpenPonk-Kendrick-modularity-Modularity",
+	"name" : "OKTModularRelationship"
+}

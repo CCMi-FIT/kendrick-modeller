@@ -1,14 +1,11 @@
 {
-	"category" : "OpenPonk-Kendrick-modularity-Modularity",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "JanBliznicenko 5/28/2017 17:22",
-	"instvars" : [
-		 ],
-	"name" : "OKAcceptDenyFeedbackBuilder",
-	"pools" : [
-		 ],
 	"super" : "OPAcceptDenyFeedbackBuilder",
-	"type" : "normal" }
+	"category" : "OpenPonk-Kendrick-modularity-Modularity",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "OKAcceptDenyFeedbackBuilder",
+	"type" : "normal"
+}

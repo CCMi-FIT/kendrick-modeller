@@ -4,7 +4,7 @@ createOwnedElements
 	label := RTLabel new
 		color: Color black;
 		height: 11;
-		text: [ :m | m model name ];
+		text: [ :aFigure | aFigure model ifNil: [ '' ] ifNotNil: [ :figureModel | figureModel name ] ];
 		elementOn: self.
 	self add: label.
 	(RTConstraint on: label background: self) stick

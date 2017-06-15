@@ -1,15 +1,14 @@
 {
-	"category" : "OpenPonk-Kendrick-modularity-Modularity",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "JanBliznicenko 5/30/2017 08:39",
+	"super" : "OKModelObjectReference",
+	"category" : "OpenPonk-Kendrick-modularity-Modularity",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"sourceName",
-		"targetName" ],
+		"targetName"
+	],
 	"name" : "OKRelationshipReference",
-	"pools" : [
-		 ],
-	"super" : "OKModelObjectReference",
-	"type" : "normal" }
+	"type" : "normal"
+}

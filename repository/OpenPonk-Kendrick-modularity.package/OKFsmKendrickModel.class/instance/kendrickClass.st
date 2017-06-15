@@ -1,3 +1,3 @@
 hooks
 kendrickClass
-	^ KendrickModel
+	^ KEModel

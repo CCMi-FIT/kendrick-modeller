@@ -1,14 +1,13 @@
 {
-	"category" : "OpenPonk-Kendrick-modularity-Spec",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"formModel" ],
-	"name" : "OKModelviewDiagram",
-	"pools" : [
-		 ],
 	"super" : "OKModelview",
-	"type" : "normal" }
+	"category" : "OpenPonk-Kendrick-modularity-Spec",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"formModel"
+	],
+	"name" : "OKModelviewDiagram",
+	"type" : "normal"
+}
