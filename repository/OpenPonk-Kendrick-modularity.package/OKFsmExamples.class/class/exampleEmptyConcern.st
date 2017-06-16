@@ -1,3 +1,3 @@
 examples
-exampleEmptyKendrickModel
+exampleEmptyConcern
 	self openExamples: {self modelExampleEmptyConcern}

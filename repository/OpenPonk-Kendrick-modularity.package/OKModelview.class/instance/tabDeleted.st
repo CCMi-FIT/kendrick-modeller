@@ -1,0 +1,3 @@
+updating
+tabDeleted
+	editor tabDeleted

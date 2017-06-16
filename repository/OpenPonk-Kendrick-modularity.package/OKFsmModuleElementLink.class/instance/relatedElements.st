@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 relatedElements
 	^ (self incoming , self outgoing) asSet asOrderedCollection

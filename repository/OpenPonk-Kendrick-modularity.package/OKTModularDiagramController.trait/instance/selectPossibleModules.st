@@ -1,7 +1,7 @@
 hooks
 selectPossibleModules
-	^ (self project models
+	^ (self project resultModels
 		reject: [ :eachModel | 
-			eachModel == self model
+			eachModel name == self model name
 				or: [ eachModel canBeValidLinkedTo not
 						or: [ self model originalModelObjects includes: eachModel ] ] ]) asOrderedCollection

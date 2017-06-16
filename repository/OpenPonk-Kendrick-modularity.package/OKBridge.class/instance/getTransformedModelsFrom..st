@@ -1,3 +1,0 @@
-private
-getTransformedModelsFrom: anOpenPonkDiagram
-	^ self subclassResponsibility

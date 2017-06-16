@@ -1,0 +1,3 @@
+private
+getTransformedModelsFrom: anExternalDiagram madeFrom: anOpenPonkDiagram
+	^ self subclassResponsibility

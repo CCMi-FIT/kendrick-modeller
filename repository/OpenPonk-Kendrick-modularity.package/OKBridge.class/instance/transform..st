@@ -1,8 +1,11 @@
 private
 transform: anOpenPonkDiagram
 	| newTransformedModels |
-	externalModels at: anOpenPonkDiagram put: (self getExternalModelsFrom: anOpenPonkDiagram).
-	newTransformedModels := self getTransformedModelsFrom: anOpenPonkDiagram.
+	externalModels
+		at: anOpenPonkDiagram
+		put: (self getExternalModelsFrom: anOpenPonkDiagram).
+	newTransformedModels := (externalModels at: anOpenPonkDiagram)
+		flatCollect: [ :each | self getTransformedModelsFrom: each madeFrom: anOpenPonkDiagram ].
 	transformedModels at: anOpenPonkDiagram put: newTransformedModels.
 	updatedModels add: anOpenPonkDiagram.
 	newTransformedModels

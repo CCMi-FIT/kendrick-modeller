@@ -1,37 +1,25 @@
 private
-getExternalModelsFrom: anOpenPonkDiagram
-	| class model elements transitions states |
-	class := anOpenPonkDiagram kendrickClass.
-	model := (MessageSend receiver: class selector: anOpenPonkDiagram name asSymbol) value.
-	anOpenPonkDiagram isConcern
-		ifTrue: [ | extended |
-			extended := anOpenPonkDiagram extendedModule ifNil: [ anOpenPonkDiagram ].
-			model model: extended name.
-			anOpenPonkDiagram modules do: [ :each | model concern: each name ] without: extended ]
-		ifFalse: [ anOpenPonkDiagram extendedModule ifNotNil: [ :module | model extends: module name ] ].
-	elements := anOpenPonkDiagram elements.
+getExternalModelsFrom: aDiagram
+	| model elements states class modules |
+	class := aDiagram kendrickClass.
+	modules := aDiagram modules.
+	model := (aDiagram isConcern and: [ modules size = 1 ])
+		ifTrue: [ class extends: modules anyOne externalKendrickModel ]
+		ifFalse: [ class new ].
+	aDiagram isConcern
+		ifFalse: [ modules do: [ :each | model integrate: each externalKendrickModel ] ].
+	elements := aDiagram elements.
 	states := {(#status -> OrderedCollection new).
-	(#species -> OrderedCollection new).
-	(#patch -> OrderedCollection new)}.
+	(#species -> OrderedCollection new)} asDictionary.
 	elements
-		select: [ :each | each isState ]
-		thenDo: [ :each | (states at: each graphmlType) add: each name asSymbol ].
-	states
-		keysAndValuesDo: [ :eachKey :eachStates | 
-			eachStates
-				ifNotEmpty: [ model
-						attribute:
-							{eachKey.
-							#->} , eachStates ] ].
-	transitions := elements select: [ :each | each isTransition ].
-	model parameters: (transitions collect: [ :each | each probability asSymbol ]).
-	model
-		transitions:
-			(transitions
-				flatCollect: [ :each | 
-					{each source name asSymbol.
-					#--.
-					each probability asSymbol.
-					#-->.
-					(each target name , '.') asSymbol} ]).
+		select: [ :each | each isState and: [ each hasEditableName ] ]
+		thenDo: [ :each | (states at: each kendrickAttributeType) add: each name asSymbol ].
+	states keysAndValuesDo: [ :eachKey :eachStates | eachStates ifNotEmpty: [ model addAttribute: eachKey value: eachStates ] ].
+	elements
+		select: [ :each | each isTransition ]
+		thenDo: [ :each | 
+			model
+				addTransitionFrom: each source asCompartmentDictionary
+				to: each target asCompartmentDictionary
+				probability: [ :m | m atParameter: each probabilityParameter ] ].
 	^ {model}
