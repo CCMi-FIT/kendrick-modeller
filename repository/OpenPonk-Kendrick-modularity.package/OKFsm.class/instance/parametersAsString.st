@@ -1,8 +1,8 @@
 accessing
-attributesAsString
+parametersAsString
 	^ String
 		streamContents: [ :stream | 
-			attributes
+			parameters
 				keysAndValuesDo: [ :key :value | 
 					stream
 						nextPutAll: key;

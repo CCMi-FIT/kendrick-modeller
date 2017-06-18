@@ -40,7 +40,12 @@ getTransformedModelsFrom: aKendrickModel madeFrom: anOpenPonkDiagram
 	model
 		addAll:
 			(aKendrickModel transitions
-				collect: [ :eachKETransition | 
+				reject: [ :eachKETransition | eachKETransition probability asString = '0' ]
+				thenCollect: [ :eachKETransition | 
+					| probability |
+					probability := (eachKETransition probability isBlock
+						ifTrue: [ eachKETransition probability value: OKFsmDummyKEModel ]
+						ifFalse: [ eachKETransition probability ]) asString.
 					eachKETransition from size = 1
 						ifTrue: [ OKFsmTransition
 								from:
@@ -49,7 +54,7 @@ getTransformedModelsFrom: aKendrickModel madeFrom: anOpenPonkDiagram
 								to:
 									(model elements
 										detect: [ :any | any name asSymbol = (eachKETransition to at: any kendrickAttributeType) ])
-								probabilityParameter: (eachKETransition probability copiedValueAt: 1) probabilityParameter ]
+								probabilityParameter: probability ]
 						ifFalse: [ OKFsmTransition
 								from:
 									(model elements
@@ -63,5 +68,5 @@ getTransformedModelsFrom: aKendrickModel madeFrom: anOpenPonkDiagram
 											anyElement parts
 												allSatisfy:
 													[ :eachPart | eachPart name asSymbol = (eachKETransition to at: eachPart kendrickAttributeType) ] ])
-								probabilityParameter: (eachKETransition probability copiedValueAt: 1) probabilityParameter ] ]).
+								probabilityParameter: probability ] ]).
 	^ {model}

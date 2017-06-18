@@ -1,6 +1,6 @@
 ui hooks
 buildEditorForm: aForm
 	super buildEditorForm: aForm.
-	(aForm addTextInput: 'Attributes')
-		text: self model attributesAsString;
-		whenTextIsAccepted: [ :newValue | self model parseAttributes: newValue ]
+	(aForm addTextInput: 'Parameters')
+		text: self model parametersAsString;
+		whenTextIsAccepted: [ :newValue | self model parseParameters: newValue ]

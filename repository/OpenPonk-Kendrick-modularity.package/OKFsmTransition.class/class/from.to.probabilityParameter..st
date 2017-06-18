@@ -3,5 +3,5 @@ from: aSource to: aTarget probabilityParameter: aString
 	^ self new
 		source: aSource;
 		target: aTarget;
-		probabilityParameter: aString;
+		probability: aString;
 		yourself

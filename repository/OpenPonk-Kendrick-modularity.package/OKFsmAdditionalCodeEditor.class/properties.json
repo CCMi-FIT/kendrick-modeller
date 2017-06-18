@@ -1,14 +1,16 @@
 {
-	"commentStamp" : "JanBliznicenko 5/28/2017 17:19",
-	"super" : "OKFsm",
+	"commentStamp" : "",
+	"super" : "ComposableModel",
 	"category" : "OpenPonk-Kendrick-modularity-KendrickFSM",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"populationSize",
-		"additionalCode"
+		"model",
+		"codeArea",
+		"topLabel",
+		"bottomLabel"
 	],
-	"name" : "OKFsmKendrickModel",
+	"name" : "OKFsmAdditionalCodeEditor",
 	"type" : "normal"
 }

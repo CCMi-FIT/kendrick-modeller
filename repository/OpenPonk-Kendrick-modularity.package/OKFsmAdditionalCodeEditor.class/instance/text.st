@@ -1,0 +1,3 @@
+selection
+text
+	^ codeArea text

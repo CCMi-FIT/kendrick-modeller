@@ -9,10 +9,4 @@ modelExampleSpecies
 		add: reservoir1;
 		add: reservoir2;
 		add: mosquito.
-	model
-		addAll:
-			{(reservoir1 --> mosquito name: 'mu*0.5').
-			(mosquito --> reservoir1 name: 'gamma*beta').
-			(reservoir2 --> mosquito name: 'delta').
-			(mosquito --> reservoir2 name: '1')}.
 	^ model

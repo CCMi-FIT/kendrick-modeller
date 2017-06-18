@@ -1,3 +1,3 @@
 accessing
-probabilityParameter
+probability
 	^ self name
