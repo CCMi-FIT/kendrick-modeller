@@ -4,5 +4,8 @@ edgeBuilder
 		arrowHead;
 		attachPoint: (RTBorderAttachPoint new offset: -10);
 		constraintLabel: #name balance: 0.2 offset: 12;
-		color: Color veryLightGray;
+		colorElement: [ :el | 
+			self model isValid
+				ifTrue: [ Color gray ]
+				ifFalse: [ Color red ] ];
 		yourself

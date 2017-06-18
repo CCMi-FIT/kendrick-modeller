@@ -4,6 +4,9 @@ createFigure
 	newFigure := OKFsmStateFigure on: self model.
 	newFigure controller: self.
 	newFigure shape
-		color: Color veryVeryLightGray;
+		colorElement: [ :anElement | 
+			self model isValid
+				ifTrue: [ Color veryVeryLightGray ]
+				ifFalse: [ Color red ] ];
 		borderColor: Color veryVeryDarkGray.
 	^ newFigure

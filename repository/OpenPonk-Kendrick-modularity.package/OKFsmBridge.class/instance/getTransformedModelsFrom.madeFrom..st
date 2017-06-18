@@ -3,13 +3,16 @@ getTransformedModelsFrom: aKendrickModel madeFrom: anOpenPonkDiagram
 	| model attributes |
 	model := OKFsm named: anOpenPonkDiagram name basedOn: aKendrickModel.
 	attributes := Dictionary new.
-	aKendrickModel attributes keysAndValuesDo: [ :key :col | attributes at: key put: col copy ].
+	aKendrickModel attributes
+		keysAndValuesDo: [ :key :col | attributes at: key put: col copy ].
 	attributes ifEmpty: [ ^ {model} ].
 	(attributes includesKey: #status)
 		ifTrue: [ (attributes at: #status) add: #empty ].
 	attributes size = 1
 		ifTrue: [ attributes
-				keysAndValuesDo: [ :eachType :eachNames | model addAll: (eachNames collect: [ :eachName | OKFsmState named: eachName basedOn: eachType ]) ] ]
+				keysAndValuesDo: [ :eachType :eachNames | 
+					model
+						addAll: (eachNames collect: [ :eachName | OKFsmState named: eachName basedOn: eachType ]) ] ]
 		ifFalse: [ | combinations |
 			combinations := OrderedCollection with: Dictionary new.
 			attributes
@@ -31,7 +34,8 @@ getTransformedModelsFrom: aKendrickModel madeFrom: anOpenPonkDiagram
 							| compartment |
 							compartment := OKFsmCompartment new.
 							eachDictionary
-								keysAndValuesDo: [ :eachAttributeType :eachName | compartment addPart: (OKFsmState named: eachName basedOn: eachAttributeType) ].
+								keysAndValuesDo:
+									[ :eachAttributeType :eachName | compartment addPart: (OKFsmState named: eachName basedOn: eachAttributeType) ].
 							compartment ]) ].
 	model
 		addAll:
@@ -39,15 +43,25 @@ getTransformedModelsFrom: aKendrickModel madeFrom: anOpenPonkDiagram
 				collect: [ :eachKETransition | 
 					eachKETransition from size = 1
 						ifTrue: [ OKFsmTransition
-								from: (model elements detect: [ :any | any name asSymbol = (eachKETransition from at: any kendrickAttributeType) ])
-								to: (model elements detect: [ :any | any name asSymbol = (eachKETransition to at: any kendrickAttributeType) ]) ]
+								from:
+									(model elements
+										detect: [ :any | any name asSymbol = (eachKETransition from at: any kendrickAttributeType) ])
+								to:
+									(model elements
+										detect: [ :any | any name asSymbol = (eachKETransition to at: any kendrickAttributeType) ])
+								probabilityParameter: (eachKETransition probability copiedValueAt: 1) probabilityParameter ]
 						ifFalse: [ OKFsmTransition
 								from:
 									(model elements
-										detect:
-											[ :anyElement | anyElement parts allSatisfy: [ :eachPart | eachPart name asSymbol = (eachKETransition from at: eachPart kendrickAttributeType) ] ])
+										detect: [ :anyElement | 
+											anyElement parts
+												allSatisfy:
+													[ :eachPart | eachPart name asSymbol = (eachKETransition from at: eachPart kendrickAttributeType) ] ])
 								to:
 									(model elements
-										detect:
-											[ :anyElement | anyElement parts allSatisfy: [ :eachPart | eachPart name asSymbol = (eachKETransition to at: eachPart kendrickAttributeType) ] ]) ] ]).
+										detect: [ :anyElement | 
+											anyElement parts
+												allSatisfy:
+													[ :eachPart | eachPart name asSymbol = (eachKETransition to at: eachPart kendrickAttributeType) ] ])
+								probabilityParameter: (eachKETransition probability copiedValueAt: 1) probabilityParameter ] ]).
 	^ {model}

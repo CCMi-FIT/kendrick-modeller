@@ -1,3 +1,3 @@
 accessing
 asCompartmentDictionary
-	^ {(self kendrickAttributeType -> self name asSymbol)}
+	^ {(self kendrickAttributeType -> self name asSymbol)} asDictionary

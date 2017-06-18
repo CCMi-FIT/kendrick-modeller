@@ -1,3 +1,3 @@
 testing
 canBeLinkedTo
-	^ self name isNotEmpty
+	^ self name asString isNotEmpty

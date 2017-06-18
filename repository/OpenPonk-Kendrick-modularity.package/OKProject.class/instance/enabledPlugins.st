@@ -4,5 +4,4 @@ enabledPlugins
 		ifNil: [ | enabledPluginKinds |
 			enabledPluginKinds := {OKFsmKendrickModelPlugin.
 			OKFsmKendrickConcernPlugin}.
-			enabledPlugins := super enabledPlugins
-				select: [ :each | enabledPluginKinds includes: each class ] ]
+			enabledPlugins := OPPluginRegistry default plugins select: [ :each | enabledPluginKinds includes: each class ] ]

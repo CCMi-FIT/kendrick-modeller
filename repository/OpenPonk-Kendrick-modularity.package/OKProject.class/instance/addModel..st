@@ -17,7 +17,8 @@ addModel: aModel
 			do: [ :event | 
 			self
 				beDirty;
-				updateResultsForRemoved: event element in: aModel ].
+				updateResultsForRemoved: event element in: aModel ];
+		when: OKLinkRenamed do: [ :event | self updateLinksAfterRenamingIn: aModel ].
 	models add: aModel.
 	(aModel respondsTo: #project:)
 		ifTrue: [ aModel project: self ].

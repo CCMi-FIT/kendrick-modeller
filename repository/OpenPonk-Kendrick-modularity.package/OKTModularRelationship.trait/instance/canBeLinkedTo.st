@@ -1,3 +1,4 @@
 testing
 canBeLinkedTo
-	^ self source name isNotEmpty and: [ self target name isNotEmpty ]
+	^ self source name asString isNotEmpty
+		and: [ self target name asString isNotEmpty ]

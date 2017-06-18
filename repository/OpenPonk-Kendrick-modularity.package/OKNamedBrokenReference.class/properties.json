@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "OKModelObjectReference",
+	"name" : "OKNamedBrokenReference",
 	"type" : "normal"
 }

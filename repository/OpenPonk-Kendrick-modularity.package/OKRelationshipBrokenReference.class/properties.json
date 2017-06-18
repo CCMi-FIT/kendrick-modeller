@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "JanBliznicenko 5/30/2017 08:39",
-	"super" : "OKModelObjectReference",
+	"super" : "OKNamedBrokenReference",
 	"category" : "OpenPonk-Kendrick-modularity-Modularity",
 	"classinstvars" : [ ],
 	"pools" : [ ],
@@ -9,6 +9,6 @@
 		"sourceName",
 		"targetName"
 	],
-	"name" : "OKRelationshipReference",
+	"name" : "OKRelationshipBrokenReference",
 	"type" : "normal"
 }

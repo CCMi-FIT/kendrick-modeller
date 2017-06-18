@@ -1,0 +1,3 @@
+converting
+asCompartmentDictionary
+	^ linkedModel asCompartmentDictionary

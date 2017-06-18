@@ -1,3 +1,4 @@
-figures
+hooks
 refreshFigure
-	self figure update
+	self figure update.
+	super refreshFigure

@@ -1,20 +1,23 @@
 private
 getExternalModelsFrom: aDiagram
-	| model elements states class modules |
+	| model elements class modules |
 	class := aDiagram kendrickClass.
 	modules := aDiagram modules.
+	(aDiagram links allSatisfy: [ :any | any isValid ])
+		ifFalse: [ ^ {} ].
 	model := (aDiagram isConcern and: [ modules size = 1 ])
-		ifTrue: [ class extends: modules anyOne externalKendrickModel ]
+		ifTrue: [ | m |
+			m := class extends: modules anyOne externalKendrickModel.
+			m transitions: m transitions copy ]
 		ifFalse: [ class new ].
 	aDiagram isConcern
 		ifFalse: [ modules do: [ :each | model integrate: each externalKendrickModel ] ].
-	elements := aDiagram elements.
-	states := {(#status -> OrderedCollection new).
-	(#species -> OrderedCollection new)} asDictionary.
+	elements := aDiagram elements select: [ :each | each isLink not and: [ each canBeLinkedTo ] ].
 	elements
 		select: [ :each | each isState and: [ each hasEditableName ] ]
-		thenDo: [ :each | (states at: each kendrickAttributeType) add: each name asSymbol ].
-	states keysAndValuesDo: [ :eachKey :eachStates | eachStates ifNotEmpty: [ model addAttribute: eachKey value: eachStates ] ].
+		thenDo: [ :each | 
+			(model atAttribute: each kendrickAttributeType) ifNil: [ model addAttribute: each kendrickAttributeType value: OrderedCollection new ].
+			model atAttribute: each kendrickAttributeType add: each name asSymbol ].
 	elements
 		select: [ :each | each isTransition ]
 		thenDo: [ :each | 

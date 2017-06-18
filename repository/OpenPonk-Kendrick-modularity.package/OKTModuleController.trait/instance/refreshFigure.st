@@ -1,6 +1,7 @@
 figures
 refreshFigure
 	| trachelShape |
+	self figure update.
 	(self figure attributeAt: #RTLabelledLabel)
 		setAsFixed;
 		text: self model name.

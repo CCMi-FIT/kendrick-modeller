@@ -1,3 +1,4 @@
 figures
 refreshFigure
-	figure update
+	figure update.
+	super refreshFigure

@@ -1,3 +1,3 @@
 testing
 canBeLinkedTo
-	^ false
+	^ true

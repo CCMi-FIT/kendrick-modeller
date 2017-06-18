@@ -1,8 +1,6 @@
 updating
 updateResultDiagrams
-	| newResultModels transformedModels |
-	newResultModels := OrderedCollection new.
+	| transformedModels |
 	transformedModels := bridge transformedModels.
-	models do: [ :each | newResultModels addAll: (transformedModels at: each) ].
-	resultModels := newResultModels.
+	resultModels := models flatCollect: [ :each | transformedModels at: each ].
 	self announceUpdated
