@@ -1,0 +1,3 @@
+testing
+kendrickAttributeType
+	^ self linkedModel kendrickAttributeType

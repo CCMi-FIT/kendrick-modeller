@@ -3,7 +3,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"externalKendrickModel",
-		"parameters"
+		"parameters",
+		"additionalCode"
 	],
 	"name" : "OKFsm",
 	"commentStamp" : "JanBliznicenko 5/28/2017 17:19",

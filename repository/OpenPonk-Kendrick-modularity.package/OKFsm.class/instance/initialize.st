@@ -1,4 +1,5 @@
 initialization
 initialize
 	super initialize.
-	parameters := Dictionary new
+	parameters := Dictionary new.
+	additionalCode := ''

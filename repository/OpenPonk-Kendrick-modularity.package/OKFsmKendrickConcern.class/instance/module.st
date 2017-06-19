@@ -1,8 +1,3 @@
 accessing
 module
-	| modules |
-	modules := self modules.
-	modules ifEmpty: [ ^ nil ].
-	modules size = 1
-		ifFalse: [ ^ self error: 'too many modules' ].
-	^ modules anyOne
+	^ self elements detect: [ :any | any isKindOf: OKModule ] ifNone: [ nil ]

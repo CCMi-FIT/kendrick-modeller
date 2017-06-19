@@ -1,3 +1,3 @@
 accessing
 additionalCode
-	^ ''
+	^ additionalCode

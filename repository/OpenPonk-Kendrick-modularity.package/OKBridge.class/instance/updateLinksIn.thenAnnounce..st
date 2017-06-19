@@ -17,7 +17,7 @@ updateLinksIn: anOpenPonkDiagram thenAnnounce: requestedAnnounce
 	setOfTransformedElements := (anOpenPonkDiagram modules
 		flatCollectAsSet: [ :each | each linkedModel elements ])
 		select: [ :each | each canBeLinkedTo ].
-	resultElementsToLink := (anOpenPonkDiagram elementLinks
+	resultElementsToLink := (anOpenPonkDiagram elementLinksWithoutEdges
 		reject: [ :eachLink | setOfTransformedElements includes: eachLink linkedModel ]
 		thenCollect: [ :eachLink | 
 			eachLink

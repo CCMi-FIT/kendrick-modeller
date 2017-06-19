@@ -15,15 +15,12 @@ initializePalette: aPalette
 		newConnectionCreationTool: 'Transition'
 			factory: [ OKFsmTransitionController new ]
 			icon: OPIcons current dcFsmTransitionIcon;
-		newConnectionCreationTool: 'Species Influence'
-			factory: [ OKFsmInfluenceController new ]
-			icon: OPIcons current dcFsmTransitionIcon;
 		newSeparator.
 	aPalette addEntry
-		label: 'Base concern';
+		label: 'Extend concern';
 		icon: OPIcons current dcOmlDiagramIcon;
 		action: [ OKFsmDependanceSelectionDialog openForPalette: aPalette ].
 	aPalette addEntry
-		label: 'Element of base concern';
+		label: 'Link to element';
 		icon: OPIcons current dcOmlBoxIcon;
 		action: [ OKModuleElementSelectionDialog openForPalette: aPalette ]

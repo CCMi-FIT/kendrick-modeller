@@ -1,8 +1,9 @@
 ui hooks
 buildEditorForm: aForm
 	(aForm addTextInput: 'Probability')
-		text: self model name;
-		whenTextIsAccepted: [ :newValue |  ].
+		text: self model probability;
+		whenTextIsAccepted: [ :newValue |  ];
+		disable.
 	(aForm addTextInput: 'Delay by state')
 		text: self model delayStateName;
 		whenTextIsAccepted: [ :newValue | self model delayStateName: newValue ].

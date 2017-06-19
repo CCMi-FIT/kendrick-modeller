@@ -6,8 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"populationSize",
-		"additionalCode"
+		"populationSize"
 	],
 	"name" : "OKFsmKendrickModel",
 	"type" : "normal"
