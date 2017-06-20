@@ -1,4 +1,3 @@
 announcements
 announceUpdated
-	announcer ifNil: [ ^ announcer := Announcer new ].
-	announcer announce: OPModelContentReplaced
+	self announcer announce: OPModelContentReplaced
