@@ -3,6 +3,8 @@ getExternalModelsFrom: aDiagram
 	| class modules model newElements elementLinks edgeLinks |
 	class := aDiagram kendrickClass.
 	modules := aDiagram modules.
+	elementLinks := aDiagram elementLinksWithoutEdges.
+	edgeLinks := aDiagram edgeLinks.
 	(aDiagram links allSatisfy: [ :any | any isValid ])
 		ifFalse: [ ^ {} ].
 	model := (aDiagram isConcern and: [ modules size = 1 ])
@@ -29,8 +31,6 @@ getExternalModelsFrom: aDiagram
 					((NumberParser isNumber: each probability)
 						ifTrue: [ each probability asNumber ]
 						ifFalse: [ [ :m | m atParameter: each probability ] ]) ].
-	elementLinks := aDiagram elementLinksWithoutEdges.
-	edgeLinks := aDiagram edgeLinks.
 	edgeLinks
 		select: [ :each | each isDelayDefined ]
 		thenDo: [ :each | 

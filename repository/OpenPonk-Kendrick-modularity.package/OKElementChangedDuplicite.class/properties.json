@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "OPElementChanged",
+	"category" : "OpenPonk-Kendrick-modularity-Modularity",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "OKElementChangedDuplicite",
+	"type" : "normal"
+}

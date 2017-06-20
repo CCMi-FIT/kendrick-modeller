@@ -1,3 +1,3 @@
-as yet unclassified
+private
 updateLinksAfterRenamingIn: aModel
 	bridge updateLinksAfterRenamingIn: aModel

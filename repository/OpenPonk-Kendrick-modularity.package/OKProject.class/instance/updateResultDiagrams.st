@@ -1,4 +1,4 @@
-updating
+private
 updateResultDiagrams
 	| transformedModels |
 	transformedModels := bridge transformedModels.

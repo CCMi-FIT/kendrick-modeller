@@ -2,8 +2,5 @@ api
 project: anOpenPonkProject
 	dirty := true.
 	project := anOpenPonkProject.
-	project models
-		do: [ :each | 
-			originalModels add: each.
-			self addDependenciesOf: each ].
+	project models do: [ :each | self addedWithoutFlags: each ].
 	dirty := false

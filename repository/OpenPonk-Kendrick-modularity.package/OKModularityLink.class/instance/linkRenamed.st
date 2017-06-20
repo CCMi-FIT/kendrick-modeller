@@ -1,3 +1,3 @@
-announcements
+announcing
 linkRenamed
 	self linkRenamed: self

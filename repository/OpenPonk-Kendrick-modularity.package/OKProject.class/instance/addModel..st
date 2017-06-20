@@ -1,13 +1,15 @@
 adding
 addModel: aModel
 	(Smalltalk hasClassNamed: #MooseEntityAnnouncement)
-		ifTrue: [ aModel when: #MooseEntityAnnouncement asClass do: [ :event | self beDirty ] ].
+		ifTrue: [ aModel
+				when: #MooseEntityAnnouncement asClass
+				do: [ :event | self beDirty ] ].
 	aModel
 		when: OPElementChanged
 			do: [ :event | 
-			self
-				beDirty;
-				updateResultsForChangeOf: event element in: aModel ];
+			self beDirty.
+			(event isKindOf: OKElementChangedDuplicite)
+				ifFalse: [ self updateResultsForChangeOf: event element in: aModel ] ];
 		when: OPElementAdded
 			do: [ :event | 
 			self
@@ -18,7 +20,8 @@ addModel: aModel
 			self
 				beDirty;
 				updateResultsForRemoved: event element in: aModel ];
-		when: OKLinkRenamed do: [ :event | self updateLinksAfterRenamingIn: aModel ].
+		when: OKLinkRenamed
+			do: [ :event | self updateLinksAfterRenamingIn: aModel ].
 	models add: aModel.
 	(aModel respondsTo: #project:)
 		ifTrue: [ aModel project: self ].
