@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 from: aSourceObject to: aTargetObject
 	^ self new
 		from: aSourceObject to: aTargetObject;

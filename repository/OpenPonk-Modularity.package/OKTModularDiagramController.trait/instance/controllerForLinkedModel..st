@@ -1,4 +1,4 @@
-accessing
+controllers management
 controllerForLinkedModel: aModel
 	aModel = self model originalModelObject
 		ifTrue: [ ^ self ].

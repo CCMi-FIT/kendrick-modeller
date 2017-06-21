@@ -1,4 +1,4 @@
-ui hooks
+forms
 buildEditorForm: aForm
 	(aForm addTextInput: 'Probability')
 		text: self model probability;

@@ -2,10 +2,7 @@
 	"commentStamp" : "",
 	"super" : "ComposableModel",
 	"category" : "OpenPonk-Modularity-Spec",
-	"classinstvars" : [
-		"left",
-		"right"
-	],
+	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [

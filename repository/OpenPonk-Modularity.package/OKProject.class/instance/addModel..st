@@ -2,7 +2,8 @@ adding
 addModel: aModel
 	(Smalltalk hasClassNamed: #MooseEntityAnnouncement)
 		ifTrue: [ aModel
-				when: #MooseEntityAnnouncement asClass
+				when:
+					(self class environment at: #MooseEntityAnnouncement)
 				do: [ :event | self beDirty ] ].
 	aModel
 		when: OPElementChanged

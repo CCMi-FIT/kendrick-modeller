@@ -1,3 +1,3 @@
 OpenPonk-FSM-GraphML-accessing
 graphmlType
-	^ #compartment
+	^ self subclassResponsibility

@@ -1,3 +1,3 @@
-accessing - spec
+spec
 openAdditionalCodeEditor
 	OKFsmAdditionalCodeEditor openFor: model

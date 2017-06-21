@@ -1,4 +1,4 @@
-ui hooks
+forms
 buildEditorForm: aForm
 	super buildEditorForm: aForm.
 	(aForm addTextInput: 'Parameters')

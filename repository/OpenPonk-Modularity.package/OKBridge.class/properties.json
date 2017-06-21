@@ -11,8 +11,7 @@
 		"originalModels",
 		"externalModels",
 		"transformedModels",
-		"dependingModels",
-		"updatedModels"
+		"dependingModels"
 	],
 	"name" : "OKBridge",
 	"type" : "normal"

@@ -6,6 +6,6 @@ initializePresenter
 				addItem: [ :item | 
 					item
 						name: 'Project';
-						icon: Smalltalk ui icons openIcon;
+						icon: #openIcon asIcon;
 						subMenu: self projectMenu ] ].
 	toolbar applyTo: self

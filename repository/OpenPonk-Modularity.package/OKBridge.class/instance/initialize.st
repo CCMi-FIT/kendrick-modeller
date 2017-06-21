@@ -6,5 +6,4 @@ initialize
 	externalModels := Dictionary new.
 	transformedModels := Dictionary new.
 	dependingModels := Dictionary new.
-	updatedModels := Set new.
 	dirty := false

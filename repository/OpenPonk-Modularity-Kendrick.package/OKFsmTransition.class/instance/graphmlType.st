@@ -1,3 +1,3 @@
-DynaCASE-FSM-GraphML-accessing
+OpenPonk-FSM-GraphML-accessing
 graphmlType
 	^ #transition

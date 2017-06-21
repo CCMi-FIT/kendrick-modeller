@@ -6,7 +6,7 @@
 	],
 	"name" : "OKModularityLink",
 	"commentStamp" : "JanBliznicenko 5/28/2017 17:41",
-	"super" : "OPMElement",
+	"super" : "OPNamedElement",
 	"traitcomposition" : "OKTModularModelObject",
 	"type" : "normal",
 	"classinstvars" : [ ],

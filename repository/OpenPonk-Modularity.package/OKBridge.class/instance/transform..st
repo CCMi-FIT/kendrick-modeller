@@ -7,7 +7,7 @@ transform: anOpenPonkDiagram
 	newTransformedModels := (externalModels at: anOpenPonkDiagram)
 		flatCollect: [ :each | self getResultModelsFrom: each madeFrom: anOpenPonkDiagram ].
 	transformedModels at: anOpenPonkDiagram put: newTransformedModels.
-	updatedModels add: anOpenPonkDiagram.
-	(newTransformedModels flatCollectAsSet: [ :each | self dependingModelsOn: each ])
+	(newTransformedModels
+		flatCollectAsSet: [ :each | self dependingModelsOn: each ])
 		, (self modelsWithInvalidModulesExcept: anOpenPonkDiagram)
 		do: [ :eachDependingModel | self updateLinksIn: eachDependingModel ]
