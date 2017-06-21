@@ -1,0 +1,13 @@
+{
+	"classtraitcomposition" : "OKTModularModelObject classTrait",
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "OKFsmState",
+	"commentStamp" : "",
+	"super" : "OPFsmVertex",
+	"traitcomposition" : "OKTModularModelObject",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "OpenPonk-Modularity-Kendrick-Models"
+}

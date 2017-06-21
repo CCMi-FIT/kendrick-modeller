@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "OKModelviewDiagram",
+	"category" : "OpenPonk-Modularity-Spec",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "OKModellingModelview",
+	"type" : "normal"
+}

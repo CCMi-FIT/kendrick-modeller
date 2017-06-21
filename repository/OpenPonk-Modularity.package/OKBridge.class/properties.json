@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "JanBliznicenko 5/28/2017 17:16",
+	"super" : "Object",
+	"category" : "OpenPonk-Modularity-Bridge",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"dirty",
+		"project",
+		"originalModels",
+		"externalModels",
+		"transformedModels",
+		"dependingModels",
+		"updatedModels"
+	],
+	"name" : "OKBridge",
+	"type" : "normal"
+}

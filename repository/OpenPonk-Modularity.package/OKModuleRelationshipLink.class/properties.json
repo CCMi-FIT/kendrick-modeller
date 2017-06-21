@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "JanBliznicenko 5/28/2017 17:42",
+	"super" : "OKModulePartLink",
+	"category" : "OpenPonk-Modularity-Models",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"source",
+		"target"
+	],
+	"name" : "OKModuleRelationshipLink",
+	"type" : "normal"
+}

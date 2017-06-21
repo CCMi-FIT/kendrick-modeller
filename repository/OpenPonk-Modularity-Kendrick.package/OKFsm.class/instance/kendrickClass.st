@@ -1,0 +1,3 @@
+hooks
+kendrickClass
+	^ self subclassResponsibility

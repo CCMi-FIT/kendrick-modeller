@@ -1,0 +1,3 @@
+specs
+openNewModelSelection
+	OKNewModelSelectionDialog openForProjectController: self projectController

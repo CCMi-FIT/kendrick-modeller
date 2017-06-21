@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "ComposableModel",
+	"category" : "OpenPonk-Modularity-Spec",
+	"classinstvars" : [
+		"left",
+		"right"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"modelspaces",
+		"tabManager",
+		"workbench",
+		"focusedModel"
+	],
+	"name" : "OKWorkspace",
+	"type" : "normal"
+}

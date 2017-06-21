@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "OKFsmStateFigure",
+	"category" : "OpenPonk-Modularity-Kendrick-Figures",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"innerCircle"
+	],
+	"name" : "OKFsmSpeciesFigure",
+	"type" : "normal"
+}

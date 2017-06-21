@@ -1,0 +1,13 @@
+{
+	"classtraitcomposition" : "OKTModuleRelationshipLinkController classTrait",
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "OKModuleRelationshipLinkController",
+	"commentStamp" : "JanBliznicenko 5/28/2017 17:47",
+	"super" : "OPRelationshipController",
+	"traitcomposition" : "OKTModuleRelationshipLinkController",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "OpenPonk-Modularity-Controllers"
+}

@@ -1,0 +1,3 @@
+private
+editorClass
+	^ self subclassResponsibility

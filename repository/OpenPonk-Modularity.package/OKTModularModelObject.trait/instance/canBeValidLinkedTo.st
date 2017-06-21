@@ -1,0 +1,3 @@
+testing
+canBeValidLinkedTo
+	^ self canBeLinkedTo

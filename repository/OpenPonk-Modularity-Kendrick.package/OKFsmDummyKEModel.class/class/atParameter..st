@@ -1,0 +1,3 @@
+accessing
+atParameter: aSymbol
+	^ aSymbol

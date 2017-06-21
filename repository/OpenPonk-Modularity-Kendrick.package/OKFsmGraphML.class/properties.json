@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "OPFsmGraphML",
+	"category" : "OpenPonk-Modularity-Kendrick-Serialization",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "OKFsmGraphML",
+	"type" : "normal"
+}

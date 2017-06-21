@@ -1,0 +1,3 @@
+hooks
+newModelspace
+	^ self subclassResponsibility

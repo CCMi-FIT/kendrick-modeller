@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "OKWorkspace",
+	"category" : "OpenPonk-Modularity-Spec",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "OKEditWorkspace",
+	"type" : "normal"
+}

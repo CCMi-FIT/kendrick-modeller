@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "DynamicComposableModel",
+	"category" : "OpenPonk-Modularity-Spec",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"modelspace",
+		"editor"
+	],
+	"name" : "OKModelview",
+	"type" : "normal"
+}

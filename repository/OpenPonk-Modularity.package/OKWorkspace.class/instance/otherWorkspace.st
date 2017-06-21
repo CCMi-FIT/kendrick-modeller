@@ -1,0 +1,3 @@
+accessing
+otherWorkspace
+	^ self subclassResponsibility

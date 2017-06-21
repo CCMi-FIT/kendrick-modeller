@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "JanBliznicenko 5/30/2017 08:39",
+	"super" : "OKNamedBrokenReference",
+	"category" : "OpenPonk-Modularity-Models",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"sourceName",
+		"targetName"
+	],
+	"name" : "OKRelationshipBrokenReference",
+	"type" : "normal"
+}

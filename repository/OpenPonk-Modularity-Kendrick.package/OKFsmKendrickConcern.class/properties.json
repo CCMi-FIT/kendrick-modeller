@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "JanBliznicenko 5/28/2017 17:19",
+	"super" : "OKFsm",
+	"category" : "OpenPonk-Modularity-Kendrick-Models",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "OKFsmKendrickConcern",
+	"type" : "normal"
+}

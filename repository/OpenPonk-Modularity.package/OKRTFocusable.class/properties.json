@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "JanBliznicenko 5/28/2017 17:51",
+	"super" : "OPRTFocusable",
+	"category" : "OpenPonk-Modularity-Roassal2",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "OKRTFocusable",
+	"type" : "normal"
+}

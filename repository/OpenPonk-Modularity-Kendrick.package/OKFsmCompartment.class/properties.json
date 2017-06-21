@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "OKFsmState",
+	"category" : "OpenPonk-Modularity-Kendrick-Models",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"parts"
+	],
+	"name" : "OKFsmCompartment",
+	"type" : "normal"
+}

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "OKModelspace",
+	"category" : "OpenPonk-Modularity-Spec",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "OKEditModelspace",
+	"type" : "normal"
+}

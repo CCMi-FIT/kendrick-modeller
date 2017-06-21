@@ -1,0 +1,3 @@
+adding
+addResultDiagramController: aController
+	resultControllers add: aController

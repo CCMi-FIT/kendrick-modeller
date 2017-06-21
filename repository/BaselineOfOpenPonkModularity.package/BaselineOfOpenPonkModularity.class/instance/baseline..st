@@ -14,10 +14,16 @@ baseline: spec
 						className: 'ConfigurationOfKendrick';
 						versionString: #development;
 						repository: 'http://smalltalkhub.com/mc/UMMISCO/Kendrick/main' ];
-				package: 'OpenPonk-Kendrick-modularity'.
+				package: 'OpenPonk-Modularity';
+				package: 'OpenPonk-Modularity-Kendrick'.
 			spec
 				group: 'default'
-				with: #('OpenPonk' 'FsmEditor' 'Kendrick' 'OpenPonk-Kendrick-modularity').
-			spec group: 'kendrick' with: #('Kendrick' 'OpenPonk-Kendrick-modularity').
-			spec group: 'openponk' with: #('OpenPonk' 'FsmEditor' 'OpenPonk-Kendrick-modularity').
-			spec group: 'package' with: #('OpenPonk-Kendrick-modularity') ]
+				with: #('OpenPonk' 'FsmEditor' 'OpenPonk-Modularity' 'Kendrick' 'OpenPonk-Modularity-Kendrick').
+			spec
+				group: 'kendrick'
+				with: #('OpenPonk-Modularity' 'Kendrick' 'OpenPonk-Modularity-Kendrick').
+			spec
+				group: 'openponk'
+				with: #('OpenPonk' 'FsmEditor' 'OpenPonk-Modularity' 'OpenPonk-Modularity-Kendrick').
+			spec group: 'package' with: #('OpenPonk-Modularity' 'OpenPonk-Modularity-Kendrick').
+			spec group: 'core' with: #('OpenPonk' 'FsmEditor' 'OpenPonk-Modularity') ]

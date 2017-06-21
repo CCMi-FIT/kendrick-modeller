@@ -1,0 +1,3 @@
+userinterface
+applyDefaultLayout
+	self applyLayout: self defaultLayout

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "OKFsmSerializer",
+	"category" : "OpenPonk-Modularity-Kendrick-Serialization",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "OKFsmKendrickConcernSerializer",
+	"type" : "normal"
+}

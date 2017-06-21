@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "OKFsmStatusController",
+	"category" : "OpenPonk-Modularity-Kendrick-Controllers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "OKFsmEmptyStatusController",
+	"type" : "normal"
+}

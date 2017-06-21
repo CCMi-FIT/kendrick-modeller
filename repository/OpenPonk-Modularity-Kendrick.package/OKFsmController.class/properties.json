@@ -1,0 +1,15 @@
+{
+	"classtraitcomposition" : "OKTModularDiagramController classTrait",
+	"classvars" : [ ],
+	"instvars" : [
+		"modelToLinkControllerMapping"
+	],
+	"name" : "OKFsmController",
+	"commentStamp" : "",
+	"super" : "OPFsmController",
+	"traitcomposition" : "OKTModularDiagramController - {#addModuleButtonToPalette:. #addModuleElementButtonToPalette:}",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "OpenPonk-Modularity-Kendrick-Controllers"
+}

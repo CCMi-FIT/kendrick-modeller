@@ -1,0 +1,13 @@
+{
+	"classtraitcomposition" : "OKTModularRelationship classTrait",
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "OKFsmTransition",
+	"commentStamp" : "",
+	"super" : "OPFsmTransition",
+	"traitcomposition" : "OKTModularRelationship",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "OpenPonk-Modularity-Kendrick-Models"
+}

@@ -1,0 +1,3 @@
+accessing
+externalKendrickModel: anExternalKendrickModel
+	externalKendrickModel := anExternalKendrickModel

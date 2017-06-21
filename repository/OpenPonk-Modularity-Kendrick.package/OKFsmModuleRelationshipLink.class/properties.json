@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "OKModuleRelationshipLink",
+	"category" : "OpenPonk-Modularity-Kendrick-Models",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"delayStateName",
+		"delayProbability"
+	],
+	"name" : "OKFsmModuleRelationshipLink",
+	"type" : "normal"
+}

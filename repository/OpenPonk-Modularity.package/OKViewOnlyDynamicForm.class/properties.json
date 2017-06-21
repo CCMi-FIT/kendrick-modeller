@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "OPDynamicForm",
+	"category" : "OpenPonk-Modularity-Spec",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "OKViewOnlyDynamicForm",
+	"type" : "normal"
+}

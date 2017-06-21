@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "OKModuleElementLinkController",
+	"category" : "OpenPonk-Modularity-Kendrick-Controllers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "OKFsmModuleElementLinkController",
+	"type" : "normal"
+}

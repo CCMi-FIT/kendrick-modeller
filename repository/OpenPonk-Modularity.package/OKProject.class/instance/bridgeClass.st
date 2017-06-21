@@ -1,0 +1,3 @@
+hooks
+bridgeClass
+	^ self subclassResponsibility

@@ -1,0 +1,3 @@
+hooks
+kendrickAttributeType
+	^ self graphmlType

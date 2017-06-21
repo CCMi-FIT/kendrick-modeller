@@ -1,0 +1,3 @@
+announcements
+announceUpdated
+	self announcer announce: OPModelContentReplaced

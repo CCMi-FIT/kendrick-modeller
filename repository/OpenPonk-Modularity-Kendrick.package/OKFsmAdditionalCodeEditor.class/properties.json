@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "ComposableModel",
+	"category" : "OpenPonk-Modularity-Kendrick-Spec",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"model",
+		"codeArea",
+		"topLabel",
+		"bottomLabel"
+	],
+	"name" : "OKFsmAdditionalCodeEditor",
+	"type" : "normal"
+}

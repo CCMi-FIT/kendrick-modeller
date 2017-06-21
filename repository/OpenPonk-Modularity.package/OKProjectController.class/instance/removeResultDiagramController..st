@@ -1,0 +1,3 @@
+removing
+removeResultDiagramController: aController
+	resultControllers remove: aController

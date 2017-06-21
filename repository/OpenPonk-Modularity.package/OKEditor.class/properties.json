@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "OPEditor",
+	"category" : "OpenPonk-Modularity-Spec",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "OKEditor",
+	"type" : "normal"
+}

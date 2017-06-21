@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "OKModuleElementSelectionDialog",
+	"category" : "OpenPonk-Modularity-Kendrick-Spec",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "OKFsmElementSelectionDialog",
+	"type" : "normal"
+}
