@@ -6,12 +6,11 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"dirty",
 		"project",
-		"originalModels",
 		"externalModels",
-		"transformedModels",
-		"dependingModels"
+		"dependingModels",
+		"definitionModels",
+		"resultingModels"
 	],
 	"name" : "OKBridge",
 	"type" : "normal"

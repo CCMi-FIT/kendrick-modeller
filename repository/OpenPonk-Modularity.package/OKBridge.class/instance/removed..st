@@ -1,8 +1,6 @@
 api
 removed: aModel
-	dirty := true.
 	self removeDependenciesOf: aModel.
-	transformedModels removeKey: aModel.
+	resultingModels removeKey: aModel.
 	externalModels removeKey: aModel.
-	originalModels remove: aModel.
-	dirty := false
+	definitionModels remove: aModel

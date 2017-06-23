@@ -1,0 +1,1 @@
+I am a main part of the OKModelspace. I have different subclass for any kind of view the user needs. I can be used to display a diagram for modelling (editing), for displaying results, for coding using DSL, defining or showing simulations and many more (if someone makes me a proper subclass :) ). For that, I have different kinds of editor, where most usual one is OKEditor.

@@ -1,3 +1,4 @@
 testing
 isValid
-	^ source isValid and: [ target isValid and: [ super isValid ] ]
+	^ source canBeValidLinkedTo
+		and: [ target canBeValidLinkedTo and: [ super isValid ] ]

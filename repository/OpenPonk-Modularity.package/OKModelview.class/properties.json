@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "JanBliznicenko 6/23/2017 10:34",
 	"super" : "DynamicComposableModel",
 	"category" : "OpenPonk-Modularity-Spec",
 	"classinstvars" : [ ],

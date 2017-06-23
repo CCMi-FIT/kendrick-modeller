@@ -1,0 +1,1 @@
+I am a dialog which allows the user to select elements from given collection.

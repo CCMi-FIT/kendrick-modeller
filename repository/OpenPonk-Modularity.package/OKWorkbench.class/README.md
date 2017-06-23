@@ -1,0 +1,1 @@
+I am topmost window of the application, and provide the main entry point of the application itself. Except of toolbars, I consist of a few workspaces, each for different purpose (like editing models and viewing results).
