@@ -1,3 +1,3 @@
 announcements
 announceUpdated
-	self announcer announce: OPModelContentReplaced
+	self announcer announce: OKProjectContentReplaced

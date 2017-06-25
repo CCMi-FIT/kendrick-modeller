@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "JanBliznicenko 6/23/2017 14:55",
+	"super" : "OPModelContentReplaced",
+	"category" : "OpenPonk-Modularity-Announcements",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "OKProjectContentReplaced",
+	"type" : "normal"
+}

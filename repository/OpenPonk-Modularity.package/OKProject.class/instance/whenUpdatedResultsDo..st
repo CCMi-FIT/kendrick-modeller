@@ -1,3 +1,3 @@
 announcements
 whenUpdatedResultsDo: aBlock
-	self announcer when: OPModelContentReplaced do: aBlock
+	self announcer when: OKProjectContentReplaced do: aBlock

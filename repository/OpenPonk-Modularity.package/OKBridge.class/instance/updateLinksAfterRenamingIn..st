@@ -1,3 +1,3 @@
 api
 updateLinksAfterRenamingIn: anOpenPonkDiagram
-	self updateLinksIn: anOpenPonkDiagram thenAnnounce: true
+	self updateLinksIn: anOpenPonkDiagram thenForceAnnounce: true

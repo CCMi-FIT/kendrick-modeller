@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "JanBliznicenko 6/23/2017 10:29",
 	"super" : "OPPersistenceProjectReader",
-	"category" : "OpenPonk-Modularity-Spec",
+	"category" : "OpenPonk-Modularity-Persistence",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

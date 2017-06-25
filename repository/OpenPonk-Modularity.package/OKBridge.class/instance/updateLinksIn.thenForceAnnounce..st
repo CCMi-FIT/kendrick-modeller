@@ -1,5 +1,5 @@
 private
-updateLinksIn: anOpenPonkDiagram thenAnnounce: requestedAnnounce
+updateLinksIn: anOpenPonkDiagram thenForceAnnounce: forceAnnounce
 	| setOfTransformedDiagrams resultDiagramsToLink setOfTransformedElements resultElementsToLink |
 	setOfTransformedDiagrams := (resultingModels
 		flatCollectAsSet: [ :eachTransformedSet | eachTransformedSet ])
@@ -12,7 +12,8 @@ updateLinksIn: anOpenPonkDiagram thenAnnounce: requestedAnnounce
 					(setOfTransformedDiagrams
 						detect: [ :any | eachLink canRelinkTo: any ]
 						ifNone: [ OKNamedBrokenReference named: eachLink name ]) ]) asDictionary.
-	resultDiagramsToLink keysAndValuesDo: [ :module :newDiagram | module linkedModel: newDiagram ].
+	resultDiagramsToLink
+		keysAndValuesDo: [ :module :newDiagram | module linkedModel: newDiagram ].
 	setOfTransformedElements := (anOpenPonkDiagram modules
 		flatCollectAsSet: [ :each | each linkedModel elements ])
 		select: [ :each | each canBeLinkedTo ].
@@ -24,6 +25,7 @@ updateLinksIn: anOpenPonkDiagram thenAnnounce: requestedAnnounce
 					(setOfTransformedElements
 						detect: [ :any | eachLink canRelinkTo: any ]
 						ifNone: [ OKNamedBrokenReference named: eachLink name ]) ]) asDictionary.
-	resultElementsToLink keysAndValuesDo: [ :link :newElement | link linkedModel: newElement ].
-	(requestedAnnounce or: [ anOpenPonkDiagram links allSatisfy: [ :each | each isValid ] ])
+	resultElementsToLink
+		keysAndValuesDo: [ :link :newElement | link linkedModel: newElement ].
+	(forceAnnounce or: [ anOpenPonkDiagram links allSatisfy: [ :each | each isValid ] ])
 		ifTrue: [ anOpenPonkDiagram linksUpdated ]
