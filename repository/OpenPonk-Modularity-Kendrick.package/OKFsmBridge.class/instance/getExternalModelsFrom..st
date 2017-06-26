@@ -13,8 +13,8 @@ getExternalModelsFrom: aDiagram
 			m transitions: (m transitions collect: [ :each | KETransition from: each from to: each to probability: each probability ]) ]
 		ifFalse: [ class new ].
 	aDiagram isConcern
-		ifFalse: [ modules do: [ :each | model integrate: each externalKendrickModel ] ].
-	aDiagram populationSize ifNotNil: [ :populationSize | model population: (KEPopulation size: populationSize) ].
+		ifFalse: [ modules do: [ :each | model integrate: each externalKendrickModel ].
+			model population: (KEPopulation size: aDiagram populationSize) ].
 	newElements := aDiagram elements select: [ :each | each isLink not and: [ each canBeLinkedTo ] ].
 	newElements
 		select: [ :each | each isState and: [ each hasEditableName ] ]
@@ -63,6 +63,8 @@ getExternalModelsFrom: aDiagram
 					{(OrderedCollection with: each name).
 					(#index -> each splitIndexes)} ].
 	aDiagram parameters keysAndValuesDo: [ :key :val | model addParameter: key asSymbol value: val ].
+	aDiagram isSimulationDefined
+		ifFalse: [ ^ {model} ].
 	[ aDiagram additionalCodeBlock value: model ]
 		on: Error
 		do: [ :e | 

@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "RoassalModel",
+	"category" : "OpenPonk-Modularity-Spec",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"modelspace",
+		"roassalView"
+	],
+	"name" : "OKModelviewRoassal",
+	"type" : "normal"
+}

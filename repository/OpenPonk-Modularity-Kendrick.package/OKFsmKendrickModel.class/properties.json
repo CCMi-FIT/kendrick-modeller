@@ -6,7 +6,11 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"populationSize"
+		"populationSize",
+		"simulationDuration",
+		"simulateStates",
+		"views",
+		"simulationStepSize"
 	],
 	"name" : "OKFsmKendrickModel",
 	"type" : "normal"

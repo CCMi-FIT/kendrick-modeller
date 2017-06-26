@@ -8,7 +8,8 @@
 	"instvars" : [
 		"tabManager",
 		"workspace",
-		"tabs"
+		"focusedView",
+		"model"
 	],
 	"name" : "OKModelspace",
 	"type" : "normal"

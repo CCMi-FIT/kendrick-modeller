@@ -1,6 +1,5 @@
 project handling
 openEditorOn: aModel
-	tabs := Dictionary new.
-	self defaultModelviews
-		collect: [ :each | each new ]
-		thenDo: [ :each | tabs at: each put: (self createTab: each for: aModel) ]
+	model := aModel.
+	self defaultModelviews do: [ :each | self createTab: each new for: aModel ].
+	aModel views do: [ :each | self createTab: OKModelviewRoassal new for: each ]

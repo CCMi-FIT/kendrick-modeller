@@ -1,13 +1,11 @@
 {
-	"classtraitcomposition" : "OKTModularModelObject classTrait",
+	"commentStamp" : "",
+	"super" : "OPFsmTransitionController",
+	"category" : "OpenPonk-Modularity-Kendrick-Controllers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
 	"name" : "OKFsmTransitionController",
-	"commentStamp" : "",
-	"super" : "OPFsmTransitionController",
-	"traitcomposition" : "OKTModularModelObject",
-	"type" : "normal",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"category" : "OpenPonk-Modularity-Kendrick-Controllers"
+	"type" : "normal"
 }

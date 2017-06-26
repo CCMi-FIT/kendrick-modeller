@@ -9,7 +9,8 @@
 		"model",
 		"codeArea",
 		"topLabel",
-		"bottomLabel"
+		"bottomLabel",
+		"exampleCodeButton"
 	],
 	"name" : "OKFsmAdditionalCodeEditor",
 	"type" : "normal"
