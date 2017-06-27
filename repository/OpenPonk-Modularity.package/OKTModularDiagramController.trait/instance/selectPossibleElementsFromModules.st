@@ -1,5 +1,7 @@
 hooks
 selectPossibleElementsFromModules
+	"return all linkable elements that are present in linked modules, but are not linked already"
+	
 	| existingLinks includedElements |
 	includedElements := (self model modules
 		flatCollect: [ :eachModule | eachModule linkedElements ])

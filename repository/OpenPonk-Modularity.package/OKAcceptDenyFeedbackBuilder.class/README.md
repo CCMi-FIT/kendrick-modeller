@@ -1,1 +1,1 @@
-I am an helper class allowing highlighting elements to indicate whether action is allowed when hovered over.
+I am an helper class allowing highlighting elements to indicate whether action is allowed when hovered over. I am modified to work even with fixed elements.

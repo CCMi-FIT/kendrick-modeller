@@ -1,9 +1,10 @@
 opening
 updateAllFrom: aProject
+	"replace all my modespaces by new ones for current resulting models in aProject"
+
 	| oldFocusedModel oldTabs oldFocusedViews |
 	oldFocusedModel := focusedModel.
-	oldFocusedViews := Dictionary new.
-	modelspaces keysAndValuesDo: [ :model :pair | oldFocusedViews at: model name put: pair first focusedView ].
+	oldFocusedViews := (modelspaces values collect: [ :each | each first model name -> each first focusedView ]) asDictionary.
 	oldTabs := tabManager tabs copy.
 	oldTabs do: [ :each | tabManager removeTab: each ].
 	aProject resultModels do: [ :each | self openEditorOn: each ].

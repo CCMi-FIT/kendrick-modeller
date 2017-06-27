@@ -1,5 +1,7 @@
 private - adding
 linkRecursivelyWithDepending: aModel
+	"link aModel and recursively also all elements that depend on aModel that have even all other dependencies linked"
+	
 	| alreadyLinked |
 	alreadyLinked := self linkedModels.
 	(alreadyLinked includes: aModel)

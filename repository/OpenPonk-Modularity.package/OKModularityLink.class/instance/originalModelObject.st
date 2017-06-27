@@ -1,3 +1,5 @@
 accessing
 originalModelObject
-	^ linkedModel
+	"links answer linked object ... other kinds of model objects answer self"
+
+	^ linkedModel originalModelObject

@@ -1,3 +1,5 @@
 api
-changed: anElement in: aDiagramModel
-	self updateDependenciesOf: aDiagramModel whenChanged: anElement
+changed: aModelOrItsElement in: aDiagramModel
+	"call this if aModelOrItsElement has been changed in aDiagramModel -- note that if the change was in the model itself, aModelOrItsElement and aDiagramModel will be the same object"
+
+	self updateDependenciesOf: aDiagramModel whenChanged: aModelOrItsElement

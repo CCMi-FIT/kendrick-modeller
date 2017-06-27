@@ -1,31 +1,11 @@
 private
 updateLinksIn: anOpenPonkDiagram thenForceAnnounce: forceAnnounce
-	| setOfTransformedDiagrams resultDiagramsToLink setOfTransformedElements resultElementsToLink |
-	setOfTransformedDiagrams := (resultingModels
-		flatCollectAsSet: [ :eachTransformedSet | eachTransformedSet ])
-		select: [ :each | each canBeValidLinkedTo ].
-	resultDiagramsToLink := (anOpenPonkDiagram modules
-		reject: [ :eachLink | setOfTransformedDiagrams includes: eachLink linkedModel ]
-		thenCollect: [ :eachLink | 
-			eachLink
-				->
-					(setOfTransformedDiagrams
-						detect: [ :any | eachLink canRelinkTo: any ]
-						ifNone: [ OKNamedBrokenReference named: eachLink name ]) ]) asDictionary.
-	resultDiagramsToLink
-		keysAndValuesDo: [ :module :newDiagram | module linkedModel: newDiagram ].
-	setOfTransformedElements := (anOpenPonkDiagram modules
-		flatCollectAsSet: [ :each | each linkedModel elements ])
-		select: [ :each | each canBeLinkedTo ].
-	resultElementsToLink := (anOpenPonkDiagram elementAndEdgeLinks
-		reject: [ :eachLink | setOfTransformedElements includes: eachLink linkedModel ]
-		thenCollect: [ :eachLink | 
-			eachLink
-				->
-					(setOfTransformedElements
-						detect: [ :any | eachLink canRelinkTo: any ]
-						ifNone: [ OKNamedBrokenReference named: eachLink name ]) ]) asDictionary.
-	resultElementsToLink
-		keysAndValuesDo: [ :link :newElement | link linkedModel: newElement ].
+	"this methods updates all links in anOpenPonkDiagram to point to current resulting models or to point to broken references if there are no proper model objects to link to"
+
+	self
+		updateModuleLinksIn: anOpenPonkDiagram;
+		updateElementLinksIn: anOpenPonkDiagram.
+
+	"if asked for, or if new model has all links valid, notify anOpenPonkDiagram that links have been updated to that is can react to it and notify that it needs to generate new resulting models"
 	(forceAnnounce or: [ anOpenPonkDiagram links allSatisfy: [ :each | each isValid ] ])
 		ifTrue: [ anOpenPonkDiagram linksUpdated ]

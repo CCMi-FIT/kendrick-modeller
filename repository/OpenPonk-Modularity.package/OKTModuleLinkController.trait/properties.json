@@ -3,5 +3,5 @@
 	"traitcomposition" : "OKTModularityLinkController",
 	"classtraitcomposition" : "OKTModularityLinkController classTrait",
 	"category" : "OpenPonk-Modularity-Controllers",
-	"name" : "OKTModuleController"
+	"name" : "OKTModuleLinkController"
 }

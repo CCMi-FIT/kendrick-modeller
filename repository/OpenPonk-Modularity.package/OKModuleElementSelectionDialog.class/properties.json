@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "JanBliznicenko 6/23/2017 10:25",
-	"super" : "OKSelectionDialog",
+	"super" : "OKLinkingSelectionDialog",
 	"category" : "OpenPonk-Modularity-Spec",
 	"classinstvars" : [ ],
 	"pools" : [ ],

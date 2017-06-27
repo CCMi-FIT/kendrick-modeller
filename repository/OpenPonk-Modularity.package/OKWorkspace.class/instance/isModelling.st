@@ -1,3 +1,0 @@
-testing
-isModelling
-	^ false

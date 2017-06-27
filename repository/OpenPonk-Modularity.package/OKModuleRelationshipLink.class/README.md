@@ -1,1 +1,3 @@
 I am an element representing a link to an source-target relationship element from another diagram. I can be used, for example, to modify the element or to create another element which needs to be connected to me in some way.
+
+I am not only a link to relationship, but I am also a relationship from a source link to target link.

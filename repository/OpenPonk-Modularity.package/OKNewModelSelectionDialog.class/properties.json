@@ -1,12 +1,11 @@
 {
 	"commentStamp" : "JanBliznicenko 6/23/2017 10:29",
-	"super" : "ComposableModel",
+	"super" : "OKSelectionDialog",
 	"category" : "OpenPonk-Modularity-Spec",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"list",
 		"projectController"
 	],
 	"name" : "OKNewModelSelectionDialog",

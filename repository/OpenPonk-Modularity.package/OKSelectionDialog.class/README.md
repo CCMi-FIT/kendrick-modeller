@@ -1,1 +1,1 @@
-I am a dialog which allows the user to select model objects from given collection.
+I am a dialog for selection in a list.
