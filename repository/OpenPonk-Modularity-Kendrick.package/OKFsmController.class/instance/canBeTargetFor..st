@@ -1,3 +1,3 @@
 testing
 canBeTargetFor: aController
-	^ aController isKindOf: OKModuleController
+	^ aController isKindOf: OKModuleLinkController

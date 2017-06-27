@@ -1,6 +1,8 @@
 example
 exampleCode
-	^ '|pop| 
+	^ '
+	"this code is based on KEDeterministicExamples>>#modelRK4SolverOnSIRMultiHost"
+	|pop| 
 	pop := model population initialSize.
 	model addParameter: #mu value: 12.17.
 	model addParameter: #gamma value: 52.
@@ -15,9 +17,9 @@ exampleCode
 			c := aModel currentCompartment at: #species.
 			c = #Mosquito
 				ifTrue: [ val := 12.17 ].
-			c = #''Reservoir 1''
+			c = #Reservoir1
 				ifTrue: [ val := 0.05 ].
-			c = #''Reservoir 2''
+			c = #Reservoir2
 				ifTrue: [ val := 0.05 ].
 			val ].
 	model
@@ -26,18 +28,17 @@ exampleCode
 			| c |
 			c := aModel currentCompartment at: #species.
 			aModel sizeOfPopulation: c ].
+
+	
 	model
 		addParameter: #rho
 		value: [ :aModel | 
-			| c val |
+			| c val values |
 			c := aModel currentCompartment at: #species.
-			c = #Mosquito
-				ifTrue: [ val := #(0 0.02 0.02) ].
-			c = #''Reservoir 1''
-				ifTrue: [ val := #(0.02 0 0) ].
-			c = #''Reservoir 2''
-				ifTrue: [ val := #(0.02 0 0) ].
-			val ].
+			values := {#Mosquito->({ #Mosquito->0. #Reservoir1->0.02. #Reservoir2->0.02 } asDictionary). #Reservoir1->({ #Mosquito->0.02. #Reservoir1->0. #Reservoir2->0 } asDictionary). #Reservoir2->({ #Mosquito->0.02. #Reservoir1->0. #Reservoir2->0 } asDictionary)} asDictionary.
+			"original code is different here, because it is based on order of items in array ... I modified it in a way that order of species does not matter"
+			(aModel atAttribute: #species) collect: [:each | (values at: c) at: each ].
+		 ].
 	model
 		atParameter: #lambda
 		assignValue: [ :aModel | 
@@ -46,12 +47,12 @@ exampleCode
 	model
 		atCompartment:
 			{(#status -> #S).
-			(#species -> #''Reservoir 1'')}
+			(#species -> #Reservoir1)}
 		put: (pop / 13) truncated.
 	model
 		atCompartment:
 			{(#status -> #S).
-			(#species -> #''Reservoir 2'')}
+			(#species -> #Reservoir2)}
 		put: (pop / 13 * 2) truncated.
 	model
 		atCompartment:
@@ -71,20 +72,20 @@ exampleCode
 	model
 		atCompartment:
 			{(#status -> #I).
-			(#species -> #''Reservoir 1'')}
+			(#species -> #Reservoir1)}
 		put: 0.
 	model
 		atCompartment:
 			{(#status -> #R).
-			(#species -> #''Reservoir 1'')}
+			(#species -> #Reservoir1)}
 		put: 0.
 	model
 		atCompartment:
 			{(#status -> #I).
-			(#species -> #''Reservoir 2'')}
+			(#species -> #Reservoir2)}
 		put: 0.
 	model
 		atCompartment:
 			{(#status -> #R).
-			(#species -> #''Reservoir 2'')}
+			(#species -> #Reservoir2)}
 		put: 0'

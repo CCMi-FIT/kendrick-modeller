@@ -1,3 +1,3 @@
 accessing
 module
-	^ self elements detect: [ :any | any isKindOf: OKModule ] ifNone: [ nil ]
+	^ self elements detect: [ :any | any isKindOf: OKModuleLink ] ifNone: [ nil ]

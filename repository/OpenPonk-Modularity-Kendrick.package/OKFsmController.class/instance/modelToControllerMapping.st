@@ -6,7 +6,7 @@ modelToControllerMapping
 		at: OKFsmStatus put: OKFsmStatusController;
 		at: OKFsmEmptyStatus put: OKFsmEmptyStatusController;
 		at: OKFsmTransition put: OKFsmTransitionController;
-		at: OKFsmModule put: OKFsmModuleController;
+		at: OKFsmModuleLink put: OKFsmModuleController;
 		at: OKFsmModuleRelationshipLink put: OKFsmModuleRelationshipLinkController;
 		at: OKFsmModuleElementLink put: OKFsmModuleElementLinkController;
 		yourself

@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "OKModuleController",
+	"super" : "OKModuleLinkController",
 	"category" : "OpenPonk-Modularity-Kendrick-Controllers",
 	"classinstvars" : [ ],
 	"pools" : [ ],

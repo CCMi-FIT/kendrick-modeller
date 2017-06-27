@@ -15,6 +15,8 @@ modelExampleSIR
 		addAll:
 			{(s -> i name: 'lambda').
 			(i -> r name: 'gamma').
+			(s -> e name: 'mu').
+			(i -> e name: 'mu').
 			(r -> e name: 'mu').
 			(e -> s name: 'mu')}.
 	^ model

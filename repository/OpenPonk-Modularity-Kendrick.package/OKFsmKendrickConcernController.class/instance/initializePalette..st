@@ -23,4 +23,4 @@ initializePalette: aPalette
 	aPalette addEntry
 		label: 'Link to compartment';
 		icon: OPIcons current dcOmlBoxIcon;
-		action: [ OKModuleElementSelectionDialog openForPalette: aPalette ]
+		action: [ OKFsmElementSelectionDialog openForPalette: aPalette ]
