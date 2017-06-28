@@ -1,12 +1,12 @@
 private
-transform: anOpenPonkDiagram
-	"create external models from anOpenPonkDiagram, then create resulting models from those external models and finally, update all relevant links to these models (or invalidate those linking to resulting model that has no new replacement)"
+transform: aDefinitionModel
+	"create external models from aDefinitionModel, then create resulting models from those external models and finally, update all relevant links to these models (or invalidate those linking to resulting model that has no new replacement)"
 
 	| newTransformedModels |
-	externalModels at: anOpenPonkDiagram put: (self getExternalModelsFrom: anOpenPonkDiagram).
-	newTransformedModels := (externalModels at: anOpenPonkDiagram)
-		flatCollect: [ :each | self getResultModelsFrom: each madeFrom: anOpenPonkDiagram ].
-	resultingModels at: anOpenPonkDiagram put: newTransformedModels.
+	externalModels at: aDefinitionModel put: (self getExternalModelsFrom: aDefinitionModel).
+	newTransformedModels := (externalModels at: aDefinitionModel)
+		flatCollect: [ :each | self getResultModelsFrom: each madeFrom: aDefinitionModel ].
+	resultingModels at: aDefinitionModel put: newTransformedModels.
 	(newTransformedModels flatCollectAsSet: [ :each | self dependingModelsOn: each ])
-		, (self modelsWithInvalidModulesExcept: anOpenPonkDiagram)
+		, (self modelsWithInvalidModulesExcept: aDefinitionModel)
 		do: [ :eachDependingModel | self updateLinksIn: eachDependingModel ]

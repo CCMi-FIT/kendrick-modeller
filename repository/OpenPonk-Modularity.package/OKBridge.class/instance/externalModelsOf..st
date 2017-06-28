@@ -1,5 +1,5 @@
 accessing
-externalModelsOf: aModel
-	"such external models that have been transformed from definition model aModel"
+externalModelsOf: aDefinitionModel
+	"such external models that have been transformed from definition model aDefinitionModel"
 
-	^ externalModels at: aModel
+	^ externalModels at: aDefinitionModel

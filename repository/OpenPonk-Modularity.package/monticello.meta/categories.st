@@ -6,3 +6,4 @@ SystemOrganization addCategory: 'OpenPonk-Modularity-Models'!
 SystemOrganization addCategory: 'OpenPonk-Modularity-Persistence'!
 SystemOrganization addCategory: 'OpenPonk-Modularity-Roassal2'!
 SystemOrganization addCategory: 'OpenPonk-Modularity-Spec'!
+SystemOrganization addCategory: 'OpenPonk-Modularity-Tests'!

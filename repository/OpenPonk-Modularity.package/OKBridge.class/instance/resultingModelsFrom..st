@@ -1,5 +1,5 @@
 accessing
-resultingModelsFrom: aModel
-	"such resulting models that have been transformed from definition model aModel"
+resultingModelsFrom: aDefinitionModel
+	"such resulting models that have been transformed from definition model aDefinitionModel"
 
-	^ resultingModels at: aModel
+	^ resultingModels at: aDefinitionModel

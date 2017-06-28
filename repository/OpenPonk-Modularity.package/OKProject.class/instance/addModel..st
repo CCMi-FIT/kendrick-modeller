@@ -10,6 +10,6 @@ addModel: aModel
 		when: OPElementRemoved
 			do: [ :event | self updateResultsForRemoved: event element in: aModel ];
 		when: OKLinkRenamed
-			do: [ :event | self updateLinksAfterRenamingIn: aModel ].
+			do: [ :event | self renamedLinkIn: aModel ].
 	super addModel: aModel.
 	self updateResultsForAdded: aModel

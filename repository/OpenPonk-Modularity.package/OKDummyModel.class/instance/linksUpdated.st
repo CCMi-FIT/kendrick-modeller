@@ -1,0 +1,3 @@
+announcing
+linksUpdated
+	askedToUpdateLinks := true

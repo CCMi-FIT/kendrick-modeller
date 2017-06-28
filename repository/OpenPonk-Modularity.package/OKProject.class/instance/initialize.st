@@ -1,5 +1,5 @@
 initialization
 initialize
 	super initialize.
-	resultModels := OrderedCollection new.
+	resultingModels := OrderedCollection new.
 	bridge := self bridgeClass project: self

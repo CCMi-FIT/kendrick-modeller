@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "OKBridge",
+	"category" : "OpenPonk-Modularity-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "OKDummyBridgeSubclass",
+	"type" : "normal"
+}

@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "OpenPonk-Modularity-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"linkedModel",
+		"relinked"
+	],
+	"name" : "OKDummyLink",
+	"type" : "normal"
+}

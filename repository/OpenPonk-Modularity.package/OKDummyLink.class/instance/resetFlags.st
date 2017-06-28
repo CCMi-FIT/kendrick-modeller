@@ -1,0 +1,3 @@
+accessing
+resetFlags
+	relinked := false

@@ -7,9 +7,9 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"enabledPlugins",
-		"resultModels",
 		"bridge",
-		"announcer"
+		"announcer",
+		"resultingModels"
 	],
 	"name" : "OKProject",
 	"type" : "normal"

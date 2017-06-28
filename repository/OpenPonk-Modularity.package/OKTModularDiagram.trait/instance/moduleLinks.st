@@ -1,3 +1,3 @@
 accessing
-modules
+moduleLinks
 	^ self elements select: [ :each | each isKindOf: OKModuleLink ]

@@ -1,4 +1,7 @@
 api
-added: anElement in: aDiagramModel
-	"call this if anElement has been added to aDiagramModel, which is a definition model"
-	self addDependenciesOf: aDiagramModel whenChanged: anElement
+added: anElement in: aDefinitionModel
+	"call this if anElement has been added to aDefinitionModel, which is a definition model"
+
+	self
+		addDependenciesOf: aDefinitionModel;
+		process: aDefinitionModel whenChanged: anElement

@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "OpenPonk-Modularity-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"modules",
+		"elementLinks",
+		"originalElements",
+		"askedForLinks",
+		"askedToUpdateLinks"
+	],
+	"name" : "OKDummyModel",
+	"type" : "normal"
+}
