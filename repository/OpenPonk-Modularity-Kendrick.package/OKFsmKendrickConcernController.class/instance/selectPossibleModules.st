@@ -1,4 +1,4 @@
 hooks
 selectPossibleModules
-	model modules ifNotEmpty: [ ^ OrderedCollection new ].
+	model moduleLinks ifNotEmpty: [ ^ OrderedCollection new ].
 	^ super selectPossibleModules

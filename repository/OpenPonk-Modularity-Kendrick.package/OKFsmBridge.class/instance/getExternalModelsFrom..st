@@ -4,7 +4,7 @@ getExternalModelsFrom: aDiagram
 
 	| class modules model newElements elementLinks edgeLinks |
 	class := aDiagram kendrickClass.
-	modules := aDiagram modules.
+	modules := aDiagram moduleLinks.
 	elementLinks := aDiagram elementLinksWithoutEdges.
 	edgeLinks := aDiagram edgeLinks.
 	
