@@ -4,7 +4,7 @@ This is a prototype tool based on [OpenPonk](https://openponk.github.io/), modif
 
 For now, it supports a small subset of [Kendrick](https://ummisco.github.io/kendrick/) functionality, but is extendable for various kinds of models.
 
-* [Examples of work with Kendrick models](https://github.com/bliznjan/openponk-modularity/wiki/Examples-of-work-with-Kendrick-models)
+* [Kendrick examples (video)](https://github.com/bliznjan/openponk-modularity/wiki/Kendrick-examples-(video))
 * [Installation](https://github.com/bliznjan/openponk-modularity/wiki/Installation)
 * [Background and motivation](https://github.com/bliznjan/openponk-modularity/wiki/Background-and-motivation) for the tool and related work
 * [Principles of the solution](https://github.com/bliznjan/openponk-modularity/wiki/Principles-of-the-solution)
