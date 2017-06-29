@@ -1,3 +1,3 @@
 api
 title
-	^ 'Select a backend model'
+	^ 'Select a concern to extend'

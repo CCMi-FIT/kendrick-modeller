@@ -21,6 +21,6 @@ initializePalette: aPalette
 		icon: OPIcons current dcOmlDiagramIcon;
 		action: [ OKFsmDependanceSelectionDialog openForPalette: aPalette ].
 	aPalette addEntry
-		label: 'Link to compartment';
+		label: 'Link to concern element';
 		icon: OPIcons current dcOmlBoxIcon;
 		action: [ OKFsmElementSelectionDialog openForPalette: aPalette ]

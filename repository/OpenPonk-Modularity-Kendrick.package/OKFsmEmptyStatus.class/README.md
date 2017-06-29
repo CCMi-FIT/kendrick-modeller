@@ -1,0 +1,1 @@
+I am a Kendrick empty status. I cannot be renamed.

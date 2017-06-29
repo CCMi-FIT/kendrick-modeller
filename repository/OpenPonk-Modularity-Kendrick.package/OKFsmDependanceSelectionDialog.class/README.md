@@ -1,1 +1,1 @@
-I am a dialog window allowing selection of backend model kind of module.
+I am a dialog window allowing selection of concern to extend.

@@ -1,3 +1,3 @@
 api
 title
-	^ 'Select a model part'
+	^ 'Select a concern to integrate'

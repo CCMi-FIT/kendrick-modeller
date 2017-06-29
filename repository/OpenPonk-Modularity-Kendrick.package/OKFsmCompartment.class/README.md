@@ -1,0 +1,1 @@
+I am a cartesian product of attributes. For example, I can be a combination of state 'X' and species 'A'. In that case, I will be equal to Kendrick compartment #state->'X'. #species->'A'.

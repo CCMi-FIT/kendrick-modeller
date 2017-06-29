@@ -1,1 +1,1 @@
-I am an abstract OpenPonk-friendly representation of Kendrick composition.
+I am an OpenPonk-friendly representation of Kendrick model (KEModel).

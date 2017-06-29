@@ -3,7 +3,7 @@
 	"classvars" : [ ],
 	"instvars" : [ ],
 	"name" : "OKFsmTransition",
-	"commentStamp" : "",
+	"commentStamp" : "JanBliznicenko 6/29/2017 10:00",
 	"super" : "OPFsmTransition",
 	"traitcomposition" : "OKTModularRelationship",
 	"type" : "normal",
