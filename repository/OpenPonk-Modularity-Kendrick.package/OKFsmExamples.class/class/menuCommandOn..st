@@ -3,7 +3,6 @@ menuCommandOn: aBuilder
 	<worldMenu>
 	(aBuilder item: #'OpenPonk-Modularity-Kendrick examples')
 		icon: OPIcons current dynacaseIcon;
-		parent: #MostUsedTools;
 		action: [ self exampleEmpty ];
 		with: [ (aBuilder item: #'Empty concern')
 				icon: OPIcons current dynacaseIcon;
