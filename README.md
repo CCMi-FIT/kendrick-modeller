@@ -1,4 +1,4 @@
-# OpenPonk-Kendrick modularity
+# OpenPonk-Modularity with Kendrick
 
 This is a prototype tool based on [OpenPonk](https://openponk.github.io/), modified and extended in a way that handles modular models with live feedback of results. It is created on [Pharo](http://pharo.org/) smalltalk platform.
 
