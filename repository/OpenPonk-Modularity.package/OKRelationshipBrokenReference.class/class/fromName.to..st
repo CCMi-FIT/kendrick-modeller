@@ -1,5 +1,5 @@
 instance creation
-sourceName: aSourceName targetName: aTargetName
+fromName: aSourceName to: aTargetName
 	^ self new
 		sourceName: aSourceName;
 		targetName: aTargetName;

@@ -2,14 +2,12 @@
 	"classtraitcomposition" : "OKTModularModelObject classTrait",
 	"classvars" : [ ],
 	"instvars" : [
-		"elements",
-		"owner",
-		"announcements",
-		"name"
+		"receivedLinkRenamed",
+		"announcements"
 	],
-	"name" : "OKDummyModularModelObject",
+	"name" : "OKDummyModularOPModelObject",
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "OPModelObject",
 	"traitcomposition" : "OKTModularModelObject",
 	"type" : "normal",
 	"classinstvars" : [ ],

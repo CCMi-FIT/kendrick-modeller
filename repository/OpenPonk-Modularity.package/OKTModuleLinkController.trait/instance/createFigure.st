@@ -1,5 +1,7 @@
 figures
 createFigure
+	"Just as my ModuleElementLinkController counterpart, I have hardcoded shape on canvas, but my shape (figure) can be easily changed by subclasses if needed."
+		
 	^ OPRTCallbackBuilder
 		block: [ :view | 
 			| roassalShape |

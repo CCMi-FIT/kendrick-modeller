@@ -1,11 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "OKTModularAbstractModelObjectTest",
+	"super" : "TestCase",
 	"category" : "OpenPonk-Modularity-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "OKTModularModelObjectTest",
+	"instvars" : [
+		"object"
+	],
+	"name" : "OKTModularAbstractModelObjectTest",
 	"type" : "normal"
 }

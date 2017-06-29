@@ -6,7 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"object"
+		"link"
 	],
 	"name" : "OKModularityLinkTest",
 	"type" : "normal"

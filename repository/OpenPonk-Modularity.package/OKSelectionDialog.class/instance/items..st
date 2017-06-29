@@ -3,7 +3,7 @@ items: aCollection
 	list
 		items:
 			(aCollection
-				collect: [ :each | each asString ]);
+				collect: [ :each | self listNameFor: each ]);
 		whenSelectionIndexChanged: [ :selectedIndex | 
 			self
 				selected: (aCollection at: selectedIndex);
