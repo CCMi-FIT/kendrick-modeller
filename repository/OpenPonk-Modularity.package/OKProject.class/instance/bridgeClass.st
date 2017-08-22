@@ -1,3 +1,3 @@
 hooks
 bridgeClass
-	^ self subclassResponsibility
+	^ self class bridgeClass

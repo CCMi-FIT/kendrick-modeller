@@ -7,7 +7,6 @@ openProject: aProject
 		workbench: self.
 	self updateTitle.
 	project whenChanged: [ self updateTitle ].
-	project beClean.
 	projectController openAllDiagrams.
 	project models ifNotEmpty: [ :models | editWorkspace focusEditorOf: models last ].
 	project resultingModels ifNotEmpty: [ :models | resultWorkspace focusEditorOf: models last ].

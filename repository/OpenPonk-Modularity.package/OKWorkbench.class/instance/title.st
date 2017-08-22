@@ -1,11 +1,13 @@
 api
 title
-	| s p |
-	s := ''.
-	p := ''.
-	project
-		ifNotNil: [ project dirty
-				ifTrue: [ s := '* ' ].
-			s := s , project projectName , ' - '.
-			p := project name ].
-	^ s , 'OpenPonk-Modularity for ' , p
+	^ String
+		streamContents: [ :stream | 
+			project
+				ifNotNil: [ stream
+						nextPutAll: project name;
+						nextPutAll: ' - ' ].
+			stream nextPutAll: 'OpenPonk-Modularity'.
+			project
+				ifNotNil: [ stream
+						nextPutAll: ' for ';
+						nextPutAll: project typeName ] ]
