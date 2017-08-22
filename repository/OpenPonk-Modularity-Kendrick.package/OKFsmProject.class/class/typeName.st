@@ -1,3 +1,3 @@
-hooks
-name
+accessing
+typeName
 	^ 'Kendrick project'
