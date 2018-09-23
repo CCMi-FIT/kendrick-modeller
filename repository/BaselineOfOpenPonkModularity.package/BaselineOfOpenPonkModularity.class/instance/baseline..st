@@ -6,9 +6,9 @@ baseline: spec
 		for: #common
 		do: [ spec
 				baseline: 'OpenPonk'
-					with: [ spec repository: 'github://openponk/openponk/repository' ];
+					with: [ spec repository: 'github://openponk/openponk:v0.1.0/repository' ];
 				baseline: 'FsmEditor'
-					with: [ spec repository: 'github://openponk/fsm-editor/repository' ];
+					with: [ spec repository: 'github://bliznjan/fsm-editor/repository' ];
 				project: 'Kendrick'
 					with: [ spec
 						className: 'ConfigurationOfKendrick';
