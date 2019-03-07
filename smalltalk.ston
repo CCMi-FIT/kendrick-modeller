@@ -1,0 +1,23 @@
+SmalltalkCISpec {
+	#loading : [
+		SCIMetacelloLoadSpec {
+			#platforms : [
+				#pharo
+			],
+			#baseline : 'OpenPonkModularity',
+			#directory : 'repository'
+		}
+	],
+	#testing : {
+		#coverage : {
+			#packages : [
+				'OpenPonk-Modularity',
+				'OpenPonk-Modularity-Kendrick'
+			]
+		},
+		#packages : [
+				'OpenPonk-Modularity',
+				'OpenPonk-Modularity-Kendrick'
+		]
+	}
+}
