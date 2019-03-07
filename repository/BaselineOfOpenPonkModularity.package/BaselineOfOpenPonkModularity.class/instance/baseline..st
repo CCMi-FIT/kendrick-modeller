@@ -5,25 +5,13 @@ baseline: spec
 	spec
 		for: #common
 		do: [ spec
-				baseline: 'OpenPonk'
-					with: [ spec repository: 'github://openponk/openponk:v1.0.0/repository' ];
 				baseline: 'FsmEditor'
 					with: [ spec repository: 'github://openponk/fsm-editor/repository' ];
-				project: 'Kendrick'
-					with: [ spec
-						className: 'ConfigurationOfKendrick';
-						versionString: #development;
-						repository: 'http://smalltalkhub.com/mc/UMMISCO/Kendrick/main' ];
-				package: 'OpenPonk-Modularity';
-				package: 'OpenPonk-Modularity-Kendrick'.
+				baseline: 'Kendrick'
+					with: [ spec repository: 'github://UMMISCO/kendrick:master/src' ];
+				package: 'OpenPonk-Modularity' with: [ spec requires: #('FsmEditor') ];
+				package: 'OpenPonk-Modularity-Kendrick' with: [ spec requires: #('Kendrick' 'OpenPonk-Modularity') ].
 			spec
 				group: 'default'
-				with: #('OpenPonk' 'FsmEditor' 'OpenPonk-Modularity' 'Kendrick' 'OpenPonk-Modularity-Kendrick').
-			spec
-				group: 'kendrick'
-				with: #('OpenPonk-Modularity' 'Kendrick' 'OpenPonk-Modularity-Kendrick').
-			spec
-				group: 'openponk'
-				with: #('OpenPonk' 'FsmEditor' 'OpenPonk-Modularity' 'OpenPonk-Modularity-Kendrick').
-			spec group: 'package' with: #('OpenPonk-Modularity' 'OpenPonk-Modularity-Kendrick').
-			spec group: 'core' with: #('OpenPonk' 'FsmEditor' 'OpenPonk-Modularity') ]
+				with: #('OpenPonk-Modularity-Kendrick').
+		]
