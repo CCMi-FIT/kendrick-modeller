@@ -1,7 +1,7 @@
 Class {
 	#name : #BaselineOfOpenPonkModularity,
 	#superclass : #BaselineOf,
-	#category : 'BaselineOfOpenPonkModularity'
+	#category : #BaselineOfOpenPonkModularity
 }
 
 { #category : #baselines }
@@ -26,7 +26,6 @@ BaselineOfOpenPonkModularity >> baseline: spec [
 
 { #category : #'as yet unclassified' }
 BaselineOfOpenPonkModularity >> loadRoassal [
-	self halt.
 	Metacello new
 		baseline: 'Roassal2';
 		repository:
@@ -38,7 +37,6 @@ BaselineOfOpenPonkModularity >> loadRoassal [
 
 { #category : #'as yet unclassified' }
 BaselineOfOpenPonkModularity >> loadXMLWriter [
-	self halt.
 	Metacello new
 		baseline: 'XMLWriter';
 		repository: 'github://pharo-contributions/XML-XMLWriter:2.9.x/src';
