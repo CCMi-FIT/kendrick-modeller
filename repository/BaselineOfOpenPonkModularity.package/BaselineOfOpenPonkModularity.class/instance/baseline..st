@@ -8,7 +8,7 @@ baseline: spec
 				baseline: 'FsmEditor'
 					with: [ spec repository: 'github://openponk/fsm-editor/repository' ];
 				baseline: 'Kendrick'
-					with: [ spec repository: 'github://UMMISCO/kendrick:master/src' ];
+					with: [ spec repository: 'github://JanBliznicenko/kendrick/src' ];
 				package: 'OpenPonk-Modularity' with: [ spec requires: #('FsmEditor') ];
 				package: 'OpenPonk-Modularity-Kendrick' with: [ spec requires: #('Kendrick' 'OpenPonk-Modularity') ].
 			spec
