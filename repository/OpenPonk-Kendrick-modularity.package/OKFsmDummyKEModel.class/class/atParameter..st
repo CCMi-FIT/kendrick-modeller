@@ -1,3 +1,0 @@
-accessing
-atParameter: aSymbol
-	^ aSymbol

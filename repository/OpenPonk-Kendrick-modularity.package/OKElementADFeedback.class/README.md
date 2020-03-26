@@ -1,1 +1,0 @@
-I am an helper class allowing highlighting element to indicate whether action is allowed when hovered over.

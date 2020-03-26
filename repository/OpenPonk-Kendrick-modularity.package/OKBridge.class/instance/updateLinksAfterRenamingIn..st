@@ -1,3 +1,0 @@
-updating
-updateLinksAfterRenamingIn: anOpenPonkDiagram
-	self updateLinksIn: anOpenPonkDiagram thenAnnounce: true

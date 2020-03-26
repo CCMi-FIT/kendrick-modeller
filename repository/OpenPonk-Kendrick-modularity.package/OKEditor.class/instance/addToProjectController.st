@@ -1,3 +1,0 @@
-adding
-addToProjectController
-	self workbench projectController addDiagramController: diagramController

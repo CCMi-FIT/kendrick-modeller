@@ -1,3 +1,0 @@
-forwarding
-linkedElements
-	^ linkedModel elements

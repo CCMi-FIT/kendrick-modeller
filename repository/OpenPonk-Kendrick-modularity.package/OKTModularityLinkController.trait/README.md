@@ -1,1 +1,0 @@
-I am a trait defining some features of a controller of a link to another diagram or to an element in another diagram.

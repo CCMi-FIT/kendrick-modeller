@@ -1,1 +1,0 @@
-I can be linked to if there is a link to an invalid relationship if relationship is not defined by its name, but by names of source and target. 

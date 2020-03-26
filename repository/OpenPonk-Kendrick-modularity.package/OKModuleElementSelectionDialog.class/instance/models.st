@@ -1,3 +1,0 @@
-accessing
-models
-	^ diagramController selectPossibleElementsFromModules

@@ -1,3 +1,0 @@
-hooks
-kendrickAttributeType
-	^ super graphmlType

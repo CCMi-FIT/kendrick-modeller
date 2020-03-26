@@ -1,1 +1,0 @@
-I am an element representing a link to another diagram. I can be used to enable linking to elements from that diagram, or just to show that my diagram in composed of the another diagram in some way.

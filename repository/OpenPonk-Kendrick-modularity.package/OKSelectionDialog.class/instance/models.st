@@ -1,3 +1,0 @@
-accessing
-models
-	^ self subclassResponsibility

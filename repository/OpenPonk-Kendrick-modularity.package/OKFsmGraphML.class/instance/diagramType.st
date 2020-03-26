@@ -1,3 +1,0 @@
-import
-diagramType
-	^ self subclassResponsibility

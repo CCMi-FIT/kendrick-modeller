@@ -1,3 +1,0 @@
-hooks
-kendrickAttributeType
-	^ self linkedModel kendrickAttributeType

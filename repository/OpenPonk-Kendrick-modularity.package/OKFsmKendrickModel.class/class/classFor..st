@@ -1,3 +1,0 @@
-hooks
-classFor: aKendrickModel
-	^ self

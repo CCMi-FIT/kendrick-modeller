@@ -1,3 +1,0 @@
-hooks
-selectPossibleElementsFromModules
-	^ OrderedCollection new

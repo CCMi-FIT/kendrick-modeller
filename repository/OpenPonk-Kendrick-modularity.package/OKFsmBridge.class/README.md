@@ -1,1 +1,0 @@
-I am a specific bridge for Kendrick representation made by extending FSM.

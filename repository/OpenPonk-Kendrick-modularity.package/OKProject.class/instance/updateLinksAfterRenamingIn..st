@@ -1,3 +1,0 @@
-private
-updateLinksAfterRenamingIn: aModel
-	bridge updateLinksAfterRenamingIn: aModel

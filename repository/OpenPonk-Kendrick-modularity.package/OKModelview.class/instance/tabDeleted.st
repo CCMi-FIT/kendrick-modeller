@@ -1,3 +1,0 @@
-updating
-tabDeleted
-	editor tabDeleted

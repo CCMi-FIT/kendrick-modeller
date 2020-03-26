@@ -1,1 +1,0 @@
-I am a trait defining some features of a controller of a module - link to another diagram.
