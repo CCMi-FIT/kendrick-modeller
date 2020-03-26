@@ -1,3 +1,0 @@
-hooks
-newModelspace
-	^ OKResultModelspace new

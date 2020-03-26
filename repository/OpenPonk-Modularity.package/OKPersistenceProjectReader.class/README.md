@@ -1,1 +1,0 @@
-I am a persistence reader ready for design with different OKProject subclass for each different project kind.

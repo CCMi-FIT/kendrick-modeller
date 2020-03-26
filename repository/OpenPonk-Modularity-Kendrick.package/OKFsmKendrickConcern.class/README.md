@@ -1,1 +1,0 @@
-I am an OpenPonk-friendly representation of Kendrick concern (KEModelPart).

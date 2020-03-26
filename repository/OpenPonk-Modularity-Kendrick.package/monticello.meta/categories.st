@@ -1,9 +1,0 @@
-SystemOrganization addCategory: #'OpenPonk-Modularity-Kendrick'!
-SystemOrganization addCategory: 'OpenPonk-Modularity-Kendrick-Bridge'!
-SystemOrganization addCategory: 'OpenPonk-Modularity-Kendrick-Controllers'!
-SystemOrganization addCategory: 'OpenPonk-Modularity-Kendrick-Examples'!
-SystemOrganization addCategory: 'OpenPonk-Modularity-Kendrick-Figures'!
-SystemOrganization addCategory: 'OpenPonk-Modularity-Kendrick-Models'!
-SystemOrganization addCategory: 'OpenPonk-Modularity-Kendrick-Plugins'!
-SystemOrganization addCategory: 'OpenPonk-Modularity-Kendrick-Serialization'!
-SystemOrganization addCategory: 'OpenPonk-Modularity-Kendrick-Spec'!

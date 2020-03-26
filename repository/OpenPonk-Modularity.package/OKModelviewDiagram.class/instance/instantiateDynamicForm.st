@@ -1,3 +1,0 @@
-initialization
-instantiateDynamicForm
-	^ self subclassResponsibility

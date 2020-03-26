@@ -1,3 +1,0 @@
-accessing
-resetFlags
-	relinked := false

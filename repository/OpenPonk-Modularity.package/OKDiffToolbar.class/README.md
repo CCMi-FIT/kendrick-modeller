@@ -1,1 +1,0 @@
-I am experimental toolbar to control displaying differences (not currently used)

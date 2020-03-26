@@ -1,3 +1,0 @@
-accessing
-exampleCodeButton
-	^ exampleCodeButton

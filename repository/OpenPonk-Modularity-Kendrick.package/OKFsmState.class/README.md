@@ -1,1 +1,0 @@
-I am any attribute or compartment in kendrick models or concerns.

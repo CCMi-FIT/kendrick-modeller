@@ -1,3 +1,0 @@
-announcing
-linksUpdated
-	askedToUpdateLinks := true

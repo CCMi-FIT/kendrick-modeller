@@ -1,1 +1,0 @@
-I am here to be drawn on canvas as a state.

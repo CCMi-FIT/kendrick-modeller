@@ -1,3 +1,0 @@
-testing
-canBeValidLinkedTo
-	^ name isNotEmpty

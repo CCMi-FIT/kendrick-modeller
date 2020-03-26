@@ -1,1 +1,0 @@
-I provide information for OpenPonk base about Kendrick concern diagrams and controllers.

@@ -1,1 +1,0 @@
-I am an subclass of OPEditor that complies with differences of UI between OpenPonk and this modularity tool.

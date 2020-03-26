@@ -1,1 +1,0 @@
-I am a dialog for selection in a list.

@@ -1,3 +1,0 @@
-forwarding
-linkedModelSource
-	^ linkedModel source

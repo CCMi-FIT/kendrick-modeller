@@ -1,3 +1,0 @@
-accessing
-splitIndexes
-	^ splitIndexes

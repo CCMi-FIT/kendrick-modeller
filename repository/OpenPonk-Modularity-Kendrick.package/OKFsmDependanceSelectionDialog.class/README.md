@@ -1,1 +1,0 @@
-I am a dialog window allowing selection of concern to extend.

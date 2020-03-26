@@ -1,1 +1,0 @@
-I am a subclass of element link for Kendrick models. Note that I do not replace shape of the link for now, but I probably should when I am used for anything else than Kendrick states.

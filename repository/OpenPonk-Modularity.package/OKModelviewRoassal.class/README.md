@@ -1,1 +1,0 @@
-I am a modelview that is meant for visualizations on Roassal canvas. Instead of a model, I take Roassal view as an argument of "openEditorOn:".

@@ -1,1 +1,0 @@
-I am a type of Modelview that serves for displaying model as a diagram.

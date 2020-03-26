@@ -1,1 +1,0 @@
-I am dynamic form used for view-only editors. I am useful for cases where there is editing of model not allowed.

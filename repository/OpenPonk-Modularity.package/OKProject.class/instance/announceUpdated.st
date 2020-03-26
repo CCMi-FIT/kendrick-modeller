@@ -1,3 +1,0 @@
-announcements
-announceUpdated
-	self announcer announce: OKProjectContentReplaced

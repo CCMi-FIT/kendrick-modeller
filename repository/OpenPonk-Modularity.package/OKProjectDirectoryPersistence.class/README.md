@@ -1,1 +1,0 @@
-I am an modification of OpenPonk project directory persistence handler class and I am here to allow some of the features of OpenPonk modularity tool.

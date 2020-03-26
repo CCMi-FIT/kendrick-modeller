@@ -1,3 +1,0 @@
-spec
-openAdditionalCodeEditor
-	OKFsmAdditionalCodeEditor openFor: model

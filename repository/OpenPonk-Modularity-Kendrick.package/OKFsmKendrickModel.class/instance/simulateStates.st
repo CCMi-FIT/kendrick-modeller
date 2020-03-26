@@ -1,3 +1,0 @@
-accessing
-simulateStates
-	^ simulateStates

@@ -1,1 +1,0 @@
-I am a trait defining some features of an relationship in modular diagram.

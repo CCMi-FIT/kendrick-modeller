@@ -1,1 +1,0 @@
-I am a dialog for selection kind of model to create.
