@@ -4,20 +4,18 @@ SmalltalkCISpec {
 			#platforms : [
 				#pharo
 			],
-			#baseline : 'OpenPonkModularity',
+			#baseline : 'KendrickModeller',
 			#directory : 'repository'
 		}
 	],
 	#testing : {
 		#coverage : {
 			#packages : [
-				'OpenPonk-Modularity',
-				'OpenPonk-Modularity-Kendrick'
+				'Kendrick-Modeller*'
 			]
 		},
 		#packages : [
-				'OpenPonk-Modularity',
-				'OpenPonk-Modularity-Kendrick'
+				'Kendrick-Modeller*'
 		]
 	}
 }
