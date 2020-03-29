@@ -1,6 +1,6 @@
 # Kendrick Modeller
 
-Kendrick Modeller is a visual modelling tool for [Kendrick](https://github.com/UMMISCO/Kendrick) - a modular platform for epidemiological modelling and analysis. The tool provides a visual, interactive diagram-based user interface for rapid development of epidemiological models including simulation. Create an SIR model, plug in spatial information (regions, countries), mobility patterns or dependency on age, put everything together, simulate the model and see the results.
+Kendrick Modeller is an in-development visual modelling tool for [Kendrick](https://github.com/UMMISCO/Kendrick) - a modular platform for epidemiological modelling and analysis. The tool provides a visual, interactive diagram-based user interface for rapid development of epidemiological models including simulation. Create an SIR model, plug in spatial information (regions, countries), mobility patterns or dependency on age, put everything together, simulate the model and see the results.
 
 The diagram-based modeling core and GUI is based on modeling tool [OpenPonk](https://openponk.github.io/), modified and extended in a way that handles modular models with live feedback of results. It is created on [Pharo](http://pharo.org) platform.
 
